@@ -1,4 +1,5 @@
-#run this script as: for i in $(cat Swab_torun.txt); do echo ${i}; cd /proj/snic2022-6-60/private/Swab/${i}; Rscript /proj/snic2022-6-60/private/ancient_bowtie_screen.R; done
+#Script for quick checking PMDtools outputs from Bowtie2 alignments for many species in metagenomic sample
+#Run this script as: for i in $(cat Swab.txt); do echo ${i}; cd Swab/${i}; Rscript ancient_bowtie_screen.R; done
 
 
 path<-getwd()
