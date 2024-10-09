@@ -1,0 +1,1307 @@
+# KrakenUniq v1.0.2 DATE:2023-07-08T23:30:41Z DB:/proj/uppstore2018095/private/NBIS_Demo/DBDIR_KrakenUniq_MicrobialNT_Plus_CompleteGenomes DB_SIZE:466078900204 WD:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/aMeta
+# CL:/crex/proj/sllstore2017093/b2015028/b2015028_nobackup/nikolay/aMeta/.snakemake/conda/45e1c930f4d6d34e821e39ac2a584fdb_/bin/krakenuniq --preload --db /proj/uppstore2018095/private/NBIS_Demo/DBDIR_KrakenUniq_MicrobialNT_Plus_CompleteGenomes --fastq-input results/CUTADAPT_ADAPTER_TRIMMING/sample10.trimmed.fastq.gz --threads 10 --output results/KRAKENUNIQ/sample10/sequences.krakenuniq --report-file results/KRAKENUNIQ/sample10/krakenuniq.output --gzip-compressed --only-classified-out
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+82.91	645278	645278	9981067	1.89	NA	0	no rank	unclassified
+17.09	133052	128	3105145	1.21	7.995e-05	1	no rank	root
+14.7	114439	163	3024334	1.15	7.957e-05	131567	no rank	  cellular organisms
+14.68	114258	231	3019728	1.15	0.0001252	2	superkingdom	    Bacteria
+13.26	103172	240	2845968	1.16	0.0002384	1224	phylum	      Proteobacteria
+12.94	100742	303	2784659	1.16	0.0004805	1236	class	        Gammaproteobacteria
+9.281	72237	0	2357876	1.18	0.001461	72274	order	          Pseudomonadales
+9.281	72234	23	2357876	1.18	0.001746	135621	family	            Pseudomonadaceae
+9.276	72201	12887	2352568	1.18	0.00178	286	genus	              Pseudomonas
+6.41	49893	33267	1182301	1.19	0.2456	86265	species	                Pseudomonas thivervalensis
+2.136	16626	16626	303937	1.23	0.3102	1002567408	sequence	                  LT629691.1 Pseudomonas thivervalensis strain BS3779 genome assembly, chromosome: I
+1.175	9146	9134	315700	1.01	0.07234	122355	species	                Pseudomonas psychrophila
+0.001156	9	9	143	1	0.06849	1002607669	sequence	                  CP049044.1 Pseudomonas psychrophila strain KM02 chromosome, complete genome
+0.0003854	3	3	24	1	0.009752	1002607745	sequence	                  LT629795.1 Pseudomonas psychrophila strain BS3667 genome assembly, chromosome: I
+0.01375	107	13	1241	1.02	4.044e-06	2583993	no rank	                unclassified Pseudomonas
+0.008094	63	0	774	1.02	0.0002565	2604941	species	                  Pseudomonas sp. C27(2019)
+0.008094	63	63	774	1.02	0.0002565	1003419627	sequence	                    CP043320.1 Pseudomonas sp. C27(2019) chromosome, complete genome
+0.0007709	6	0	73	1	1.634e-05	1881017	species	                  Pseudomonas sp. 7SR1
+0.0007709	6	6	73	1	1.634e-05	1003370122	sequence	                    LT707064.1 Pseudomonas sp. 7SR1 genome assembly, chromosome: I
+0.0003854	3	0	41	1	8.994e-06	2498848	species	                  Pseudomonas sp. MPC6
+0.0003854	3	3	41	1	9.658e-06	1003415535	sequence	                    CP034783.1 Pseudomonas sp. MPC6 chromosome, complete genome
+0.0003854	3	0	31	1.13	7.364e-06	2505979	species	                  Pseudomonas sp. 11K1
+0.0003854	3	3	31	1.13	7.401e-06	1003415773	sequence	                    CP035088.1 Pseudomonas sp. 11K1 chromosome, complete genome
+0.000257	2	0	7	1	1.616e-06	2518644	species	                  Pseudomonas sp. SNU WT1
+0.000257	2	2	7	1	1.616e-06	1003416493	sequence	                    CP035952.1 Pseudomonas sp. SNU WT1 chromosome, complete genome
+0.000257	2	0	5	1	1.141e-06	2049589	species	                  Pseudomonas sp. HLS-6
+0.000257	2	2	5	1	1.141e-06	1003402925	sequence	                    CP024478.1 Pseudomonas sp. HLS-6 chromosome, complete genome
+0.0001285	1	0	27	1	2.116e-05	1500687	species	                  Pseudomonas sp. St29
+0.0001285	1	1	27	1	2.116e-05	1003169644	sequence	                    AP014628.1 Pseudomonas sp. St29 DNA, complete genome
+0.0001285	1	0	19	1	1.462e-05	1500686	species	                  Pseudomonas sp. Os17
+0.0001285	1	1	19	1	1.462e-05	1003169643	sequence	                    AP014627.1 Pseudomonas sp. Os17 DNA, complete genome
+0.0001285	1	0	17	1	8.338e-06	1207075	species	                  Pseudomonas sp. UW4
+0.0001285	1	1	17	1	8.342e-06	1003070618	sequence	                    CP003880.1 Pseudomonas sp. UW4, complete genome
+0.0001285	1	0	13	1	5.099e-06	118613	species	                  Pseudomonas sp. B10
+0.0001285	1	1	13	1	5.103e-06	1002604540	sequence	                    LT707063.1 Pseudomonas sp. B10 genome assembly, chromosome: I
+0.0001285	1	0	9	1	8.841e-06	1785145	species	                  Pseudomonas sp. MS586
+0.0001285	1	1	9	1	8.841e-06	1003249561	sequence	                    CP014205.2 Pseudomonas sp. MS586, complete genome
+0.0001285	1	0	8	1	1.672e-06	143813	species	                  Pseudomonas sp. LAB-08
+0.0001285	1	1	8	1	1.672e-06	1002623689	sequence	                    AP017423.1 Pseudomonas sp. LAB-08 DNA, nearly complete genome
+0.0001285	1	0	7	1	1.477e-06	2653853	species	                  Pseudomonas sp. SCB32
+0.0001285	1	1	7	1	1.477e-06	1003420356	sequence	                    CP045118.1 Pseudomonas sp. SCB32 chromosome, complete genome
+0.0001285	1	0	6	1	2.974e-06	1855380	species	                  Pseudomonas sp. Z003-0.4C(8344-21)
+0.0001285	1	1	6	1	2.974e-06	1003268296	sequence	                    LT629756.1 Pseudomonas sp. Z003-0.4C(8344-21) genome assembly, chromosome: I
+0.0001285	1	0	6	1	1.24e-06	1755504	species	                  Pseudomonas sp. DY-1
+0.0001285	1	1	6	1	1.243e-06	1003242158	sequence	                    CP032616.1 Pseudomonas sp. DY-1 chromosome, complete genome
+0.0001285	1	0	5	1	9.902e-07	2320270	species	                  Pseudomonas sp. DG56-2
+0.0001285	1	1	5	1	9.902e-07	1003411888	sequence	                    CP032311.1 Pseudomonas sp. DG56-2 chromosome, complete genome
+0.0001285	1	0	4	1	2.655e-06	2169583	species	                  Pseudomonas sp. SXM-1
+0.0001285	1	1	4	1	2.655e-06	1003407520	sequence	                    CP038001.1 Pseudomonas sp. SXM-1 chromosome, complete genome
+0.0001285	1	0	2	1	4.845e-07	1573719	species	                  Pseudomonas sp. S35
+0.0001285	1	1	2	1	4.846e-07	1003191028	sequence	                    CP019431.1 Pseudomonas sp. S35 chromosome, complete genome
+0.0001285	1	0	2	1	4.863e-07	1573704	species	                  Pseudomonas sp. R32
+0.0001285	1	1	2	1	4.865e-07	1003190966	sequence	                    CP019396.1 Pseudomonas sp. R32 chromosome, complete genome
+0.0001285	1	0	2	1	3.594e-07	1028989	species	                  Pseudomonas sp. StFLB209
+0.0001285	1	1	2	1	3.596e-07	1003006400	sequence	                    AP014637.1 Pseudomonas sp. StFLB209 DNA, complete genome
+0.0001285	1	0	1	1	2.806e-07	2025658	species	                  Pseudomonas sp. NS1(2017)
+0.0001285	1	1	1	1	2.806e-07	1003399589	sequence	                    CP022960.1 Pseudomonas sp. NS1(2017) genome
+0.009636	75	2	824	1.06	4.102e-06	136843	species group	                Pseudomonas fluorescens group
+0.006296	49	19	635	1.06	8.096e-06	294	species	                  Pseudomonas fluorescens
+0.001028	8	0	52	1.19	1.37e-05	1262454	no rank	                    Pseudomonas fluorescens Pf29Arp
+0.000257	2	2	8	2.25	0.0001094	1003089669	sequence	                      ANOR01000071.1 Pseudomonas fluorescens Pf29Arp contig071, whole genome shotgun sequence
+0.0001285	1	1	10	1	0.0001678	1003089722	sequence	                      ANOR01000124.1 Pseudomonas fluorescens Pf29Arp contig124, whole genome shotgun sequence
+0.0001285	1	1	9	1	0.000179	1003089795	sequence	                      ANOR01000198.1 Pseudomonas fluorescens Pf29Arp contig198, whole genome shotgun sequence
+0.0001285	1	1	6	1	0.000275	1003089698	sequence	                      ANOR01000100.1 Pseudomonas fluorescens Pf29Arp contig100, whole genome shotgun sequence
+0.0001285	1	1	1	1	1.056e-05	1003089686	sequence	                      ANOR01000088.1 Pseudomonas fluorescens Pf29Arp contig088, whole genome shotgun sequence
+0.0001285	1	1	1	1	0.0001464	1003089631	sequence	                      ANOR01000020.1 Pseudomonas fluorescens Pf29Arp contig020, whole genome shotgun sequence
+0.0001285	1	1	1	1	8.722e-05	1003089688	sequence	                      ANOR01000090.1 Pseudomonas fluorescens Pf29Arp contig090, whole genome shotgun sequence
+0.0006424	5	5	86	1.05	2.602e-05	1001765154	sequence	                    CP015225.1 Pseudomonas fluorescens strain FW300-N2E2 genome
+0.0005139	4	4	94	1	2.479e-05	1001765153	sequence	                    CP012831.1 Pseudomonas fluorescens strain FW300-N2C3, complete genome
+0.0003854	3	3	43	1.02	1.5e-05	1001765160	sequence	                    CP025542.1 Pseudomonas fluorescens strain 2P24 chromosome, complete genome
+0.000257	2	0	22	1.18	4.663e-06	1221522	no rank	                    Pseudomonas fluorescens NCIMB 11764
+0.000257	2	2	22	1.18	4.663e-06	1003075731	sequence	                      CP010945.1 Pseudomonas fluorescens NCIMB 11764, complete genome
+0.000257	2	2	11	1	2.545e-06	1001768255	sequence	                    LR134318.1 Pseudomonas fluorescens strain NCTC9428 genome assembly, chromosome: 1
+0.0001285	1	1	25	1	7.49e-06	1001765162	sequence	                    CP027561.1 Pseudomonas fluorescens strain G7 chromosome, complete genome
+0.0001285	1	1	24	1	6.416e-06	1001765166	sequence	                    CP032618.1 Pseudomonas fluorescens strain PF08 chromosome, complete genome
+0.0001285	1	1	17	1	1.862e-05	1001765169	sequence	                    CP048607.1 Pseudomonas fluorescens strain DR133 chromosome, complete genome
+0.0001285	1	1	14	1	9.912e-06	1001765167	sequence	                    CP038438.1 Pseudomonas fluorescens strain LBUM677 chromosome, complete genome
+0.0001285	1	1	5	1	1.093e-06	1001765152	sequence	                    CP012830.1 Pseudomonas fluorescens strain FW300-N2E3, complete genome
+0.0001285	1	1	4	1	4.578e-06	1001765165	sequence	                    CP031648.1 Pseudomonas fluorescens strain Pf275 chromosome, complete genome
+0.0005139	4	0	48	1	3.561e-06	76758	species	                  Pseudomonas orientalis
+0.000257	2	2	30	1	1.048e-05	1002545791	sequence	                    CP018049.1 Pseudomonas orientalis strain F9, complete genome
+0.0001285	1	1	8	1	4.736e-06	1002545792	sequence	                    CP027723.1 Pseudomonas orientalis strain 8B chromosome, complete genome
+0.0001285	1	1	4	1	2.623e-06	1002545793	sequence	                    CP027724.1 Pseudomonas orientalis strain L1-3-08 chromosome, complete genome
+0.0005139	4	2	21	1.29	2.19e-06	200451	species	                  Pseudomonas poae
+0.0001285	1	1	12	1	2.46e-06	1002666688	sequence	                    CP034537.1 Pseudomonas poae strain CAP-2018 chromosome, complete genome
+0.0001285	1	1	6	1	0.3333	1002666918	sequence	                    MT125959.1 Pseudomonas poae strain RTFHPD 275 16S ribosomal RNA gene, partial sequence
+0.0005139	4	3	14	1.43	1.075e-06	380021	species	                  Pseudomonas protegens
+0.0001285	1	1	1	1	1.715e-06	1002789849	sequence	                    CP017964.1 Pseudomonas protegens strain UCT genome
+0.0005139	4	3	19	1	4.038e-06	47879	species	                  Pseudomonas corrugata
+0.0001285	1	1	6	1	1.215e-05	1002475857	sequence	                    CP014262.1 Pseudomonas corrugata strain RM1-1-4, complete genome
+0.000257	2	0	13	1	3.158e-06	651740	species	                  Pseudomonas cedrina
+0.000257	2	2	13	1	3.162e-06	1002922242	sequence	                    LT629753.1 Pseudomonas cedrina strain BS2981 genome assembly, chromosome: I
+0.000257	2	0	11	1	8.149e-07	47878	species	                  Pseudomonas azotoformans
+0.000257	2	2	10	1	2.852e-06	1002475705	sequence	                    LT629702.1 Pseudomonas azotoformans strain LMG 21611 genome assembly, chromosome: I
+0.0001285	1	0	17	1	4.547e-06	129817	species	                  Pseudomonas brenneri
+0.0001285	1	1	17	1	4.551e-06	1002610504	sequence	                    LT629800.1 Pseudomonas brenneri strain BS2771 genome assembly, chromosome: I
+0.0001285	1	0	6	1	8.264e-07	200450	species	                  Pseudomonas trivialis
+0.0001285	1	1	6	1	1.813e-06	1002666673	sequence	                    LT629760.1 Pseudomonas trivialis strain BS3111 genome assembly, chromosome: I
+0.0001285	1	1	3	1	6.602e-07	46679	species	                  Pseudomonas mucidolens
+0.0001285	1	0	2	1	4.825e-07	76760	species	                  Pseudomonas rhodesiae
+0.0001285	1	1	2	1	4.843e-07	1002546516	sequence	                    LT629801.1 Pseudomonas rhodesiae strain BS2777 genome assembly, chromosome: I
+0.003854	30	6	431	1.15	3.542e-05	930166	species	                Pseudomonas brassicacearum
+0.002441	19	19	187	1.17	5.78e-05	1002985871	sequence	                  CP045701.1 Pseudomonas brassicacearum strain S-1 chromosome, complete genome
+0.0005139	4	4	73	1	1.718e-05	1002985867	sequence	                  CP007410.1 Pseudomonas brassicacearum strain DF41, complete genome
+0.0001285	1	0	11	1.45	3.252e-05	86264	subspecies	                  Pseudomonas brassicacearum subsp. brassicacearum
+0.0001285	1	0	11	1.45	3.256e-05	994484	no rank	                    Pseudomonas brassicacearum subsp. brassicacearum NFM421
+0.0001285	1	1	11	1.45	3.256e-05	1002999267	sequence	                      CP002585.1 Pseudomonas brassicacearum subsp. brassicacearum NFM421, complete genome
+0.001413	11	0	160	1.01	2.815e-06	136842	species group	                Pseudomonas chlororaphis group
+0.001156	9	3	128	1.02	2.888e-06	587753	species	                  Pseudomonas chlororaphis
+0.0003854	3	3	29	1.07	6.469e-06	1002905325	sequence	                    CP011020.1 Pseudomonas chlororaphis strain UFB2, complete genome
+0.0001285	1	0	19	1	5.416e-06	1513890	subspecies	                    Pseudomonas chlororaphis subsp. piscium
+0.0001285	1	1	19	1	0.0001978	1003173814	sequence	                      CP027737.1 Pseudomonas chlororaphis subsp. piscium strain PCL1607 chromosome, complete genome
+0.0001285	1	0	11	1	1.965e-06	86192	subspecies	                    Pseudomonas chlororaphis subsp. aurantiaca
+0.0001285	1	1	9	1	2.661e-05	1002567204	sequence	                      CP027743.1 Pseudomonas chlororaphis subsp. aurantiaca strain CW2 chromosome, complete genome
+0.0001285	1	1	2	1	1.009e-06	1002905331	sequence	                    CP027713.1 Pseudomonas chlororaphis strain TAMOak81 chromosome, complete genome
+0.0001285	1	0	6	1	1.449e-06	296	species	                  Pseudomonas fragi
+0.0001285	1	1	6	1	7.194e-06	1001769211	sequence	                    CP021132.1 Pseudomonas fragi strain NMC25, complete genome
+0.0001285	1	0	2	1	4.869e-07	86185	species	                  Pseudomonas lundensis
+0.0001285	1	1	2	1	4.877e-07	1002566688	sequence	                    CP017687.1 Pseudomonas lundensis strain AU1044 chromosome, complete genome
+0.001028	8	0	130	1	1.444e-06	136841	species group	                Pseudomonas aeruginosa group
+0.0005139	4	2	45	1	2.468e-06	300	species	                  Pseudomonas mendocina
+0.0001285	1	1	26	1	2.062e-05	1001769949	sequence	                    CP023641.1 Pseudomonas mendocina strain MAE1-K chromosome, complete genome
+0.0001285	1	1	5	1	1.088e-06	1001769950	sequence	                    CP027657.1 Pseudomonas mendocina strain NEB698 chromosome, complete genome
+0.000257	2	0	79	1	0.02819	521720	species	                  Pseudomonas caeni
+0.0001285	1	1	75	1	0.07515	1002872844	sequence	                    HE800473.1 Pseudomonas caeni partial gyrB gene for DNA gyrase subunit B, type strain CECT 7778T
+0.0001285	1	1	4	1	0.006993	1002872845	sequence	                    HE800491.1 Pseudomonas caeni partial rpoD gene for DNA-directed RNA polymerase subunit D, type strain CECT 7778T
+0.000257	2	1	6	1	1.604e-07	287	species	                  Pseudomonas aeruginosa
+0.0001285	1	1	2	1	2.779e-05	1001750231	sequence	                    CP008859.2 Pseudomonas aeruginosa strain H5708, complete genome
+0.001028	8	0	36	1	4.861e-07	136849	species group	                Pseudomonas syringae group
+0.000257	2	0	14	1	5.442e-07	251695	species subgroup	                  Pseudomonas syringae group genomosp. 1
+0.000257	2	0	14	1	5.442e-07	317	species	                    Pseudomonas syringae
+0.0001285	1	0	4	1	9.02e-07	1357279	no rank	                      Pseudomonas syringae CC1557
+0.0001285	1	1	4	1	9.034e-07	1003122735	sequence	                        CP007014.1 Pseudomonas syringae CC1557, complete sequence
+0.0001285	1	1	2	1	0.01639	1001798610	sequence	                      MF377476.1 Pseudomonas syringae strain Ps-41 16S ribosomal RNA gene, partial sequence
+0.000257	2	0	8	1	1.526e-06	33069	species	                  Pseudomonas viridiflava
+0.000257	2	2	8	1	1.606e-06	1002406233	sequence	                    LT855380.1 Pseudomonas viridiflava strain CFBP 1590 genome assembly, chromosome: I
+0.000257	2	0	5	1	1.005e-06	1190415	species	                  Pseudomonas asturiensis
+0.000257	2	2	5	1	1.026e-06	1003064490	sequence	                    CP047265.1 Pseudomonas asturiensis strain CC1524 chromosome, complete genome
+0.000257	2	0	5	1	9.318e-07	36746	species	                  Pseudomonas cichorii
+0.000257	2	0	5	1	9.77e-07	1441629	no rank	                    Pseudomonas cichorii JBC1
+0.000257	2	2	5	1	9.77e-07	1003149033	sequence	                      CP007039.1 Pseudomonas cichorii JBC1, complete genome
+0.0008994	7	1	44	1.05	3.821e-07	136845	species group	                Pseudomonas putida group
+0.0005139	4	1	21	1	2.812e-07	303	species	                  Pseudomonas putida
+0.0001285	1	1	7	1	1.615e-06	1001771681	sequence	                    CP016634.1 Pseudomonas putida strain IEC33019, complete genome
+0.0001285	1	1	3	1	2.352e-06	1001771691	sequence	                    CP030750.1 Pseudomonas putida strain NX-1 chromosome, complete genome
+0.0001285	1	1	1	1	0.003968	1001770969	sequence	                    AB543804.1 Pseudomonas putida gene for pyruvate dehydrogenase E1 component-like protein, complete cds
+0.0001285	1	0	1	3	7.997e-07	78327	species	                  Pseudomonas mosselii
+0.0001285	1	1	1	3	7.561e-06	1002549590	sequence	                    CP024159.1 Pseudomonas mosselii strain PtA1 chromosome, complete genome
+0.0001285	1	0	2	1	3.842e-07	47880	species	                  Pseudomonas fulva
+0.0001285	1	0	2	1	4.728e-07	743720	no rank	                    Pseudomonas fulva 12-X
+0.0001285	1	1	2	1	4.728e-07	1002957937	sequence	                      CP002727.1 Pseudomonas fulva 12-X, complete genome
+0.0005139	4	0	28	1	5.191e-07	136846	species group	                Pseudomonas stutzeri group
+0.000257	2	0	21	1	4.925e-07	578833	species subgroup	                  Pseudomonas stutzeri subgroup
+0.000257	2	0	21	1	4.927e-07	316	species	                    Pseudomonas stutzeri
+0.0001285	1	1	10	1	3.246e-06	1001794626	sequence	                      CP007509.1 Pseudomonas stutzeri strain 19SMN4, complete genome
+0.0001285	1	1	7	1	1.64e-06	1001794625	sequence	                      CP007441.1 Pseudomonas stutzeri strain 28a24, complete genome
+0.0001285	1	0	5	1	1.386e-06	271420	species	                  Pseudomonas xanthomarina
+0.0001285	1	1	5	1	1.388e-06	1002722683	sequence	                    LT629970.1 Pseudomonas xanthomarina strain LMG 23572 genome assembly, chromosome: I
+0.0001285	1	0	2	1	4.434e-07	74829	species	                  Pseudomonas balearica
+0.0001285	1	0	2	1	1.881e-06	1123016	no rank	                    Pseudomonas balearica DSM 6083
+0.0001285	1	1	2	1	1.883e-06	1003035551	sequence	                      CP007511.1 Pseudomonas balearica DSM 6083, complete genome
+0.0003854	3	0	24	1	3.297e-06	237609	species	                Pseudomonas alkylphenolica
+0.000257	2	2	16	1	5.643e-06	1002698630	sequence	                  CP046621.1 Pseudomonas alkylphenolica strain Neo chromosome, complete genome
+0.0001285	1	1	4	1	1.423e-06	1002698629	sequence	                  CP009048.1 Pseudomonas alkylphenolica strain KL28 chromosome, complete genome
+0.0003854	3	0	4	1	9.29e-07	163011	species	                Pseudomonas lini
+0.000257	2	2	2	1	4.656e-07	1002638467	sequence	                  LT629746.1 Pseudomonas lini strain BS3782 genome assembly, chromosome: I
+0.0001285	1	1	2	1	0.008097	1002638331	sequence	                  EU434596.1 Pseudomonas lini strain e86 16S ribosomal RNA gene, partial sequence
+0.000257	2	2	23	1	4.261e-06	157782	species	                Pseudomonas parafulva
+0.000257	2	0	19	1	1.813e-06	104087	species	                Pseudomonas frederiksbergensis
+0.0001285	1	1	8	1	2.175e-06	1002588862	sequence	                  CP018319.1 Pseudomonas frederiksbergensis strain AS1, complete genome
+0.0001285	1	1	6	1	1.485e-06	1002588860	sequence	                  CP017886.1 Pseudomonas frederiksbergensis strain ERDD5:01 chromosome, complete genome
+0.000257	2	0	16	1	2.064e-06	702115	species	                Pseudomonas arsenicoxydans
+0.0001285	1	1	10	1	3.048e-06	1002943579	sequence	                  CP024767.1 Pseudomonas arsenicoxydans strain ACM1 chromosome
+0.0001285	1	1	6	1	1.937e-06	1002943611	sequence	                  LT629705.1 Pseudomonas arsenicoxydans strain CECT 7543 genome assembly, chromosome: I
+0.000257	2	0	4	1	1.006e-06	157783	species	                Pseudomonas cremoricolorata
+0.000257	2	2	4	1	1.006e-06	1002634272	sequence	                  CP009455.1 Pseudomonas cremoricolorata strain ND07, complete genome
+0.0001285	1	0	16	1	3.652e-06	1853130	species	                Pseudomonas silesiensis
+0.0001285	1	1	16	1	3.652e-06	1003267393	sequence	                  CP014870.1 Pseudomonas silesiensis strain A3, complete genome
+0.0001285	1	1	14	1	1.181e-06	198620	species	                Pseudomonas koreensis
+0.0001285	1	0	8	1	1.667e-06	95300	species	                Pseudomonas vancouverensis
+0.0001285	1	1	8	1	1.667e-06	1002580249	sequence	                  LT629803.1 Pseudomonas vancouverensis strain BS3656 genome assembly, chromosome: I
+0.0001285	1	0	6	1	1.386e-06	191390	species	                Pseudomonas palleroniana
+0.0001285	1	1	6	1	1.386e-06	1002659009	sequence	                  CP025494.1 Pseudomonas palleroniana strain MAB3 chromosome
+0.0001285	1	0	6	1	1.503e-06	1788301	species	                Pseudomonas versuta
+0.0001285	1	1	6	1	1.504e-06	1003249840	sequence	                  CP012676.1 Pseudomonas sp. L10.10, complete genome
+0.0001285	1	0	4	1	2.062e-06	1421430	species	                Pseudomonas granadensis
+0.0001285	1	1	4	1	2.063e-06	1003142700	sequence	                  LT629778.1 Pseudomonas granadensis strain LMG 27940 genome assembly, chromosome: I
+0.0001285	1	0	3	1	8.418e-07	1628086	species	                Pseudomonas kribbensis
+0.0001285	1	1	3	1	8.419e-07	1003204144	sequence	                  CP029608.1 Pseudomonas kribbensis strain 46-2 chromosome, complete genome
+0.0001285	1	0	3	1	8.053e-07	321662	species	                Pseudomonas moraviensis
+0.0001285	1	1	3	1	8.063e-07	1002755166	sequence	                  LT629788.1 Pseudomonas moraviensis strain BS3668 genome assembly, chromosome: I
+0.0001285	1	0	3	1	6.628e-07	395598	species	                Pseudomonas reinekei
+0.0001285	1	1	3	1	6.669e-07	1002799497	sequence	                  LT629709.1 Pseudomonas reinekei strain BS3776 genome assembly, chromosome: I
+0.0001285	1	0	2	1	2.501e-07	237610	species	                Pseudomonas psychrotolerans
+0.0001285	1	1	2	1	5.562e-07	1002698683	sequence	                  CP021645.1 Pseudomonas psychrotolerans strain CS51 chromosome, complete genome
+0.0001285	1	0	1	1	5.618e-07	1302376	species	                Candidatus Pseudomonas adelgestsugas
+0.0001285	1	1	1	1	5.623e-07	1003104407	sequence	                  CP026512.1 Candidatus Pseudomonas adelgestsugas isolate HWA_ENA chromosome, complete genome
+0.001156	9	0	161	1	3.643e-05	1849530	genus	              Oblitimonas
+0.001156	9	5	161	1	3.643e-05	1697053	species	                Oblitimonas alkaliphila
+0.000257	2	2	18	1	4.517e-05	1003225257	sequence	                  CP012365.1 Oblitimonas alkaliphila strain E5571 chromosome
+0.0001285	1	1	15	1	6.829e-05	1003225250	sequence	                  CP012358.1 Oblitimonas alkaliphila strain B4199 chromosome, complete genome
+0.0001285	1	1	4	1	2.865e-05	1003225254	sequence	                  CP012362.1 Oblitimonas alkaliphila strain D3318 chromosome, complete genome
+0.0001285	1	0	2	1	4.857e-07	1649479	genus	              Permianibacter
+0.0001285	1	0	2	1	4.858e-07	1510150	species	                Permianibacter aggregans
+0.0001285	1	1	2	1	4.858e-07	1003172703	sequence	                  CP037953.1 Permianibacter aggregans strain HW001 chromosome, complete genome
+0.0003854	3	0	16	1.88	6.083e-08	468	family	            Moraxellaceae
+0.0001285	1	0	11	2.27	5.266e-08	469	genus	              Acinetobacter
+0.0001285	1	0	6	3.33	6.642e-07	756892	species	                Acinetobacter indicus
+0.0001285	1	1	6	3.33	2.31e-05	1002962078	sequence	                  CP044445.1 Acinetobacter indicus strain CMG3-2 chromosome, complete genome
+0.0001285	1	0	3	1	8.316e-07	54393	no rank	              unclassified Moraxellaceae
+0.0001285	1	0	3	1	8.326e-07	2283318	species	                Moraxellaceae bacterium HYN0046
+0.0001285	1	1	3	1	8.326e-07	1003410997	sequence	                  CP031222.1 Moraxellaceae bacterium HYN0046 chromosome, complete genome
+0.0001285	1	0	2	1	7.185e-08	497	genus	              Psychrobacter
+0.0001285	1	0	2	1	1.212e-07	196806	no rank	                unclassified Psychrobacter
+0.0001285	1	0	2	1	0.0003005	2607668	species	                  Psychrobacter sp. 13A
+0.0001285	1	1	2	1	0.0004276	1003419745	sequence	                    LC498640.1 Psychrobacter sp. 13A genes for monomer-type isocitrate dehydrogenase, putative two pore domain potassiu channel family protein, complete cds
+3.616	28148	0	396721	1.05	0.0008968	135623	order	          Vibrionales
+3.616	28148	48	396721	1.05	0.0008968	641	family	            Vibrionaceae
+3.61	28100	11574	395733	1.05	0.001026	662	genus	              Vibrio
+2.108	16404	13335	198792	1.04	0.01366	666	species	                Vibrio cholerae
+0.2048	1594	1594	16615	1.06	0.1021	1001983554	sequence	                  CP043554.1 Vibrio cholerae strain RFB16 chromosome 1, complete sequence
+0.1142	889	889	9608	1.06	0.0964	1001983556	sequence	                  CP043556.1 Vibrio cholerae strain RFB16 chromosome 2, complete sequence
+0.04831	376	376	5392	1.05	0.1156	1001983555	sequence	                  CP043555.1 Vibrio cholerae strain RFB16 plasmid unnamed, complete sequence
+0.00167	13	13	39	1.15	0.000278	1001983571	sequence	                  CP046747.1 Vibrio cholerae strain 3541-04 chromosome 1, complete sequence
+0.00167	13	13	28	1	6.788e-05	1001987796	sequence	                  LS997867.1 Vibrio cholerae strain NCTC 30 genome assembly, chromosome: 1
+0.001542	12	0	31	1	0.0002166	935297	no rank	                  Vibrio cholerae LMA3984-4
+0.0007709	6	6	18	1	0.0004877	1002988227	sequence	                    CP002556.1 Vibrio cholerae LMA3894-4 chromosome II, complete sequence
+0.0007709	6	6	13	1	0.0001226	1002988226	sequence	                    CP002555.1 Vibrio cholerae LMA3894-4 chromosome I, complete sequence
+0.001413	11	11	55	1	0.0002359	1001983501	sequence	                  CP010811.1 Vibrio cholerae strain 1154-74, complete genome
+0.001413	11	11	51	1	0.0002797	1001987800	sequence	                  LT897797.1 Vibrio cholerae isolate Vibrio cholerae str. BC1071 genome assembly, chromosome: I
+0.001285	10	10	31	1	6.3e-05	1001983557	sequence	                  CP043557.1 Vibrio cholerae strain RFB05 chromosome 1, complete sequence
+0.001028	8	0	34	1.03	0.0004351	127906	no rank	                  Vibrio cholerae O1
+0.0008994	7	0	27	1.04	0.0005736	686	no rank	                    Vibrio cholerae O1 biovar El Tor
+0.0005139	4	4	20	1	0.02418	1002003151	sequence	                      CP047303.1 Vibrio cholerae O1 biovar El Tor strain E7946 chromosome 1, complete sequence
+0.000257	2	2	6	1.17	0.06667	1002003150	sequence	                      CP047302.1 Vibrio cholerae O1 biovar El Tor strain DRC-193A chromosome 2, complete sequence
+0.0001285	1	1	1	1	0.0005988	1002003142	sequence	                      CP009042.1 Vibrio cholerae O1 biovar El Tor strain FJ147 chromosome I, complete sequence
+0.0001285	1	0	7	1	0.001406	1134456	no rank	                    Vibrio cholerae IEC224
+0.0001285	1	1	7	1	0.003325	1003038976	sequence	                      CP003331.1 Vibrio cholerae IEC224 chromosome II, complete sequence
+0.001028	8	8	32	1	0.0002182	1001983582	sequence	                  CP046843.1 Vibrio cholerae strain K2802 chromosome 1, complete sequence
+0.001028	8	8	31	1	0.0001058	1001983502	sequence	                  CP010812.1 Vibrio cholerae strain 10432-62, complete genome
+0.0008994	7	7	31	1	0.000144	1001983585	sequence	                  CP051124.1 Vibrio cholerae strain 2010V-1116 chromosome 1
+0.0008994	7	7	31	1	0.0001882	1001983543	sequence	                  CP028892.1 Vibrio cholerae strain Sa5Y chromosome 1, complete sequence
+0.0007709	6	6	53	1	0.0002609	1001983527	sequence	                  CP016987.1 Vibrio cholerae strain FORC_055 chromosome 1, complete sequence
+0.0007709	6	6	43	1	0.0001595	1001983539	sequence	                  CP026531.1 Vibrio cholerae strain FORC_076 chromosome 1, complete sequence
+0.0007709	6	6	33	1	0.0001382	1001983566	sequence	                  CP046742.1 Vibrio cholerae strain 3523-03 chromosome 1, complete sequence
+0.0006424	5	5	36	1	0.0003779	1001983550	sequence	                  CP036499.1 Vibrio cholerae strain 20000 chromosome 1, complete sequence
+0.0006424	5	5	22	1	9.431e-05	1001987808	sequence	                  LT992490.1 Vibrio cholerae strain 4295STDY6534200 genome assembly, chromosome: 1
+0.0006424	5	5	14	1	8.304e-05	1001983573	sequence	                  CP046749.1 Vibrio cholerae strain 2015V-1118 chromosome 1, complete sequence
+0.0005139	4	4	30	1	0.000138	1001983561	sequence	                  CP046737.1 Vibrio cholerae strain 2015V-1126 chromosome 1, complete sequence
+0.0005139	4	4	23	1	0.0003271	345073	no rank	                  Vibrio cholerae O395
+0.0005139	4	4	19	1	0.0001393	1001983565	sequence	                  CP046741.1 Vibrio cholerae strain 3523-03 chromosome 2, complete sequence
+0.0005139	4	4	17	1	0.000127	1001983531	sequence	                  CP024082.1 Vibrio cholerae strain FORC_073 chromosome 1, complete sequence
+0.0005139	4	4	13	1	0.0001899	1001983560	sequence	                  CP046736.1 Vibrio cholerae strain 3528-08 chromosome 1, complete sequence
+0.0005139	4	4	12	1	6.012e-05	1001983558	sequence	                  CP043558.1 Vibrio cholerae strain RFB05 chromosome 2, complete sequence
+0.0005139	4	4	9	1	7.4e-05	1001983562	sequence	                  CP046738.1 Vibrio cholerae strain 2015V-1126 chromosome 2, complete sequence
+0.0003854	3	3	20	1	0.0002266	1001983586	sequence	                  CP051125.1 Vibrio cholerae strain 2010V-1116 chromosome 2
+0.0003854	3	3	9	1	8.497e-05	1001983574	sequence	                  CP046750.1 Vibrio cholerae strain 2015V-1118 chromosome 2, complete sequence
+0.0003854	3	3	6	1	4.38e-05	1001983578	sequence	                  CP046839.1 Vibrio cholerae strain 2011EL-1271 chromosome 1, complete sequence
+0.000257	2	2	12	1	7.211e-05	1001987797	sequence	                  LS997868.1 Vibrio cholerae strain NCTC 30 genome assembly, chromosome: 2
+0.000257	2	2	11	1	0.0001159	1001987809	sequence	                  LT992491.1 Vibrio cholerae strain 4295STDY6534200 genome assembly, chromosome: 2
+0.000257	2	2	8	1	0.0001546	1001983577	sequence	                  CP046838.1 Vibrio cholerae strain 2011EL-1271 chromosome 2, complete sequence
+0.000257	2	2	6	1	7.798e-05	1001983572	sequence	                  CP046748.1 Vibrio cholerae strain 3541-04 chromosome 2, complete sequence
+0.000257	2	2	2	1	6.975e-05	1001983552	sequence	                  CP038178.2 Vibrio cholerae strain 2010EL-1786 chromosome 1
+0.000257	2	2	2	1	2.11e-05	1001983581	sequence	                  CP046842.1 Vibrio cholerae strain K2802 chromosome 2, complete sequence
+0.0001285	1	1	7	1	0.009396	1001988786	sequence	                  MN172253.1 Vibrio cholerae strain R-12935 msh gene cluster, partial sequence
+0.0001285	1	1	6	1	0.01399	1001983522	sequence	                  CP013316.1 Vibrio cholerae strain M2140 chromosome 2, complete sequence
+0.0001285	1	1	5	1	7.738e-05	1001983575	sequence	                  CP046836.1 Vibrio cholerae strain 2011V-1043 chromosome 2, complete sequence
+0.0001285	1	1	4	1	0.0003446	1001983517	sequence	                  CP013311.1 Vibrio cholerae strain E1320, complete sequence
+0.0001285	1	1	3	1	0.04839	1001982991	sequence	                  AF263453.1 Vibrio cholerae manganese superoxide dismutase gene, complete cds
+0.0001285	1	1	3	1	0.005848	1001983579	sequence	                  CP046840.1 Vibrio cholerae strain F9993 chromosome 1, complete sequence
+0.0001285	1	1	3	1	0.000628	1001983526	sequence	                  CP013320.1 Vibrio cholerae strain NCTC9420 chromosome 2, complete sequence
+0.0001285	1	1	3	1	0.00885	1001983584	sequence	                  CP047060.1 Vibrio cholerae isolate CTMA_1441 chromosome 2, complete sequence
+0.0001285	1	1	3	1	6.38e-05	1001983532	sequence	                  CP024083.1 Vibrio cholerae strain FORC_073 chromosome 2, complete sequence
+0.0001285	1	1	3	1	4.718e-05	1001983551	sequence	                  CP036500.1 Vibrio cholerae strain 20000 chromosome 2, complete sequence
+0.0001285	1	1	2	1	1.509e-05	1001987801	sequence	                  LT897798.1 Vibrio cholerae isolate Vibrio cholerae str. BC1071 genome assembly, chromosome: II
+0.0001285	1	1	2	1	0.06897	1001983495	sequence	                  CP007634.1 Vibrio cholerae strain 2012EL-2176 chromosome 1, complete sequence
+0.0001285	1	0	1	1	2.743e-05	1420885	no rank	                  Vibrio cholerae MS6
+0.0001285	1	1	1	1	5.346e-05	1003142593	sequence	                    AP014524.1 Vibrio cholerae MS6 DNA, complete genome, chromosome 1
+0.0001285	1	1	1	1	1.652e-05	1001983528	sequence	                  CP016988.1 Vibrio cholerae strain FORC_055 chromosome 2, complete sequence
+0.0001285	1	1	1	1	0.0005305	1001983324	sequence	                  AY238999.1 Vibrio cholerae isolate 1175-74 chain length determinant (wzz) gene, partial cds; dTDP-D-glucose-4,6-dehydratase (rmlB), glucose-1-phosphate thymidylyltransferase (rmlA), dTDP-6-deoxy-L-mannose-dehydrogenase (rmlD), and dTDP-6-deoxy-D-glucose-3,5-epimerase (rmlC) genes, complete cds; and unknown gene
+0.0001285	1	1	1	1	0.0007508	1001985810	sequence	                  KF228946.1 Vibrio cholerae strain DL4215 large gene cluster, complete sequence
+0.0001285	1	1	1	1	3.254e-05	1001983525	sequence	                  CP013319.1 Vibrio cholerae strain NCTC9420 chromosome 1, complete sequence
+0.0001285	1	1	1	1	8.026e-06	1001983540	sequence	                  CP026532.1 Vibrio cholerae strain FORC_076 chromosome 2, complete sequence
+0.0001285	1	1	1	1	1.048e-05	1001983576	sequence	                  CP046837.1 Vibrio cholerae strain 2011V-1043 chromosome 1, complete sequence
+0.0001285	1	1	1	1	2.861e-05	1001983559	sequence	                  CP046735.1 Vibrio cholerae strain 3528-08 chromosome 2, complete sequence
+0.004497	35	10	134	1.05	2.283e-05	1481663	species	                Vibrio metoecus
+0.001285	10	10	27	1	2.126e-05	1003162205	sequence	                  CP035686.1 Vibrio metoecus strain 2011V-1169 chromosome 1, complete sequence
+0.0005139	4	4	21	1.33	5.073e-05	1003162212	sequence	                  CP046820.1 Vibrio metoecus strain 2011V-1015 chromosome 1, complete sequence
+0.0005139	4	4	5	1	1.068e-05	1003162206	sequence	                  CP035687.1 Vibrio metoecus strain 2011V-1169 chromosome 2, complete sequence
+0.000257	2	2	18	1	5.022e-05	1003162209	sequence	                  CP046817.1 Vibrio metoecus strain 06-2478 chromosome 1, complete sequence
+0.000257	2	2	5	1	2.779e-05	1003162210	sequence	                  CP046818.1 Vibrio metoecus strain 06-2478 chromosome 2, complete sequence
+0.0001285	1	1	5	1	1.407e-05	1003162207	sequence	                  CP035688.1 Vibrio metoecus strain 08-2459 chromosome 1, complete sequence
+0.0001285	1	1	1	1	5.29e-06	1003162208	sequence	                  CP035689.1 Vibrio metoecus strain 08-2459 chromosome 2, complete sequence
+0.0001285	1	1	1	1	4.418e-06	1003162211	sequence	                  CP046819.1 Vibrio metoecus strain 2011V-1015 chromosome 2, complete sequence
+0.003726	29	0	120	1.1	4.178e-06	2614977	no rank	                unclassified Vibrio
+0.002955	23	0	101	1.12	0.0001665	2014742	species	                  Vibrio sp. 2521-89
+0.002184	17	17	80	1.15	0.0001826	1003398009	sequence	                    CP022353.1 Vibrio sp. 2521-89 chromosome 1, complete sequence
+0.0007709	6	6	21	1	0.0001251	1003398008	sequence	                    CP022352.1 Vibrio sp. 2521-89 chromosome 2, complete sequence
+0.0006424	5	0	17	1	6.191e-06	2714948	species	                  Vibrio sp. HDW18
+0.0006424	5	5	17	1	7.816e-06	1003427294	sequence	                    CP049913.1 Vibrio sp. HDW18 chromosome, complete genome
+0.0001285	1	0	2	1	5.669e-07	2479546	species	                  Vibrio sp. HBUAS61001
+0.0001285	1	1	2	1	7.937e-07	1003412945	sequence	                    CP033078.1 Vibrio sp. HBUAS61001 chromosome 2, complete sequence
+0.002955	23	8	113	1	1.284e-05	674	species	                Vibrio mimicus
+0.0003854	3	3	10	1	2.122e-05	1001998550	sequence	                  CP046823.1 Vibrio mimicus strain 06-2455 chromosome 1, complete sequence
+0.0003854	3	3	10	1	3.813e-05	1001998547	sequence	                  CP016384.1 Vibrio mimicus strain SCCF01 chromosome 2, complete sequence
+0.000257	2	2	18	1	4.16e-05	1001998548	sequence	                  CP035682.1 Vibrio mimicus strain 2011V-1073 chromosome 1, complete sequence
+0.000257	2	2	12	1	2.153e-05	1001998546	sequence	                  CP016383.1 Vibrio mimicus strain SCCF01 chromosome 1, complete sequence
+0.000257	2	2	10	1	3.814e-05	1001998551	sequence	                  CP046824.1 Vibrio mimicus strain 06-2455 chromosome 2, complete sequence
+0.000257	2	2	7	1	2.764e-05	1001998549	sequence	                  CP035683.1 Vibrio mimicus strain 2011V-1073 chromosome 2, complete sequence
+0.0001285	1	1	22	1	9.614e-05	1001998553	sequence	                  CP046826.1 Vibrio mimicus strain 07-2442 chromosome 2, complete sequence
+0.0007709	6	1	19	1	1.926e-07	717610	species group	                Vibrio harveyi group
+0.000257	2	1	8	1	3.385e-07	670	species	                  Vibrio parahaemolyticus
+0.0001285	1	1	5	1	1.591e-05	1001992511	sequence	                    CP033141.1 Vibrio parahaemolyticus strain 160807 chromosome 1, complete sequence
+0.0001285	1	0	2	1	4.432e-07	2315253	species subgroup	                  Vibrio diabolicus subgroup
+0.0001285	1	0	2	1	6.134e-07	50719	species	                    Vibrio diabolicus
+0.0001285	1	1	2	1	5.5e-06	1002480958	sequence	                      CP014134.1 Vibrio diabolicus strain LMG 3418 chromosome 1, complete sequence
+0.0001285	1	0	2	1	2.373e-07	669	species	                  Vibrio harveyi
+0.0001285	1	1	2	1	4.453e-05	1001989932	sequence	                    CP018682.2 Vibrio harveyi isolate QT520 plasmid p1, complete sequence
+0.0001285	1	1	1	1	2.116e-07	691	species	                  Vibrio natriegens
+0.0006424	5	2	23	1	2.375e-06	29494	species	                Vibrio furnissii
+0.000257	2	2	7	1	1.781e-05	1002390561	sequence	                  CP046795.1 Vibrio furnissii strain 2420-04 chromosome 1, complete sequence
+0.0001285	1	0	1	1	1.759e-06	903510	no rank	                  Vibrio furnissii NCTC 11218
+0.0001285	1	1	1	1	2.706e-06	1002978893	sequence	                    CP002377.1 Vibrio furnissii NCTC 11218 chromosome 1, complete sequence
+0.0006424	5	3	11	1	5.28e-07	672	species	                Vibrio vulnificus
+0.0001285	1	1	2	1	7.064e-06	1001996502	sequence	                  CP016321.1 Vibrio vulnificus strain FORC_037 chromosome I, complete sequence
+0.0001285	1	0	2	1	3.773e-06	196600	no rank	                  Vibrio vulnificus YJ016
+0.0001285	1	1	2	1	7.015e-06	1002663339	sequence	                    BA000037.2 Vibrio vulnificus YJ016 DNA, chromosome I, complete sequence
+0.0003854	3	0	17	1	3.073e-06	29495	species	                Vibrio navarrensis
+0.000257	2	2	2	1	3.001e-06	1002390678	sequence	                  CP046791.1 Vibrio navarrensis strain 2462-79 chromosome 1, complete sequence
+0.0001285	1	1	12	1	1.873e-05	1002390680	sequence	                  CP051101.1 Vibrio navarrensis strain 2014V-1106 chromosome 1
+0.0003854	3	3	5	1	5.757e-07	55601	species	                Vibrio anguillarum
+0.000257	2	2	10	1	1.94e-06	28172	species	                Vibrio metschnikovii
+0.000257	2	0	2	1	3.909e-07	1891919	species group	                Vibrio oreintalis group
+0.000257	2	0	2	1	3.94e-07	29498	species	                  Vibrio tubiashii
+0.000257	2	0	2	1	3.949e-07	1051646	no rank	                    Vibrio tubiashii ATCC 19109
+0.000257	2	2	2	1	6.715e-07	1003014920	sequence	                      CP009354.1 Vibrio tubiashii ATCC 19109 chromosome 1, complete sequence
+0.0001285	1	0	6	1	1.852e-06	1763883	species	                Vibrio cidicii
+0.0001285	1	1	4	1	6.065e-06	1003244865	sequence	                  CP035921.1 Vibrio cidicii strain 2423-01 chromosome 1, complete sequence
+0.0001285	1	0	5	1	3.265e-06	2025808	species	                Vibrio qinghaiensis
+0.0001285	1	1	5	1	4.647e-06	1003399602	sequence	                  CP022741.1 Vibrio qinghaiensis strain Q67 chromosome 1, complete sequence
+0.0001285	1	0	3	1	7.826e-07	246167	species	                Vibrio crassostreae
+0.0001285	1	0	3	1	8.162e-07	1191300	no rank	                  Vibrio crassostreae 9CS106
+0.0001285	1	1	3	1	1.371e-06	1003064883	sequence	                    CP016228.1 Vibrio crassostreae 9CS106 chromosome 1, complete sequence
+0.0001285	1	0	1	2	2.432e-07	29497	species	                Vibrio splendidus
+0.0001285	1	1	1	2	4.437e-07	1002390976	sequence	                  CP031055.1 Vibrio splendidus strain BST398 chromosome 1, complete sequence
+0.0001285	1	1	1	1	7.702e-08	676	species	                Vibrio fluvialis
+0.0001285	1	0	1	1	1.592e-07	28173	species	                Vibrio nigripulchritudo
+0.0001285	1	1	1	1	2.592e-07	1002366338	sequence	                  FO203526.1 Vibrio nigripulchritudo str. SFn1 chromosome, complete genome
+0.0001285	1	0	1	1	1.852e-07	2572923	species	                Vibrio taketomensis
+0.0001285	1	1	1	1	1.08e-06	1003417919	sequence	                  AP019649.1 Vibrio taketomensis DNA, chromosome 1, complete sequence
+0.0001285	1	0	1	1	1.916e-07	52443	species	                Vibrio tapetis
+0.0001285	1	0	1	1	1.967e-07	1671868	subspecies	                  Vibrio tapetis subsp. tapetis
+0.0001285	1	1	1	1	3.04e-07	1003218373	sequence	                    LT960611.1 Vibrio tapetis subsp. tapetis isolate Vibrio tapetis CECT4600 genome assembly, chromosome: A
+0.0001285	1	0	1	1	4.023e-07	1131610	species	                Vibrio zhuhaiensis
+0.0001285	1	1	1	1	6.899e-07	1003038142	sequence	                  AP019660.1 Vibrio zhuhaiensis DSM 25602 DNA, chromosome 1, complete sequence
+0.002955	23	2	211	1.01	1.323e-07	91347	order	          Enterobacterales
+0.001413	11	4	109	1.03	1.365e-07	543	family	            Enterobacteriaceae
+0.0003854	3	0	40	1	5.722e-07	590	genus	              Salmonella
+0.0003854	3	0	40	1	6.791e-07	28901	species	                Salmonella enterica
+0.0003854	3	0	40	1	1.971e-06	59201	subspecies	                  Salmonella enterica subsp. enterica
+0.0001285	1	0	29	1	0.0007865	134047	no rank	                    Salmonella enterica subsp. enterica serovar Bredeney
+0.0001285	1	1	29	1	0.06054	1002612917	sequence	                      AM932669.1 Salmonella enterica subsp. enterica serovar Bredeney plasmid pSBre96 partial class I intergron, strain 96
+0.0001285	1	0	7	1	9.692e-06	90371	no rank	                    Salmonella enterica subsp. enterica serovar Typhimurium
+0.0001285	1	1	7	1	0.004184	1002573403	sequence	                      CP032494.1 Salmonella enterica subsp. enterica serovar Typhimurium strain SO21 chromosome, complete genome
+0.0001285	1	0	4	1	1.667e-05	1151001	no rank	                    Salmonella enterica subsp. enterica serovar Napoli
+0.0001285	1	1	4	1	1.679e-05	1003044992	sequence	                      CP030838.1 Salmonella enterica subsp. enterica serovar Napoli strain LC0541/17 chromosome, complete genome
+0.000257	2	0	6	1	5.148e-08	570	genus	              Klebsiella
+0.0001285	1	0	3	1	4.456e-07	1134687	species	                Klebsiella michiganensis
+0.0001285	1	1	3	1	8.842e-07	1003039037	sequence	                  CP011077.1 Klebsiella michiganensis strain RC10, complete genome
+0.0001285	1	0	2	1	7.066e-08	573	species	                Klebsiella pneumoniae
+0.0001285	1	1	2	1	0.000578	1001942609	sequence	                  LT882698.1 Klebsiella pneumoniae strain Klebsiella pneumoniae KLPN57 genome assembly, plasmid: I
+0.0001285	1	0	3	1	6.236e-07	620	genus	              Shigella
+0.0001285	1	1	3	1	1.851e-06	622	species	                Shigella dysenteriae
+0.0001285	1	0	1	1	3.016e-08	191675	no rank	              unclassified Enterobacteriaceae
+0.0001285	1	0	1	1	6.825e-08	84563	no rank	                ant, tsetse, mealybug, aphid, etc. endosymbionts
+0.0001285	1	0	1	1	1.672e-06	1906659	genus	                  Candidatus Hoaglandella
+0.0001285	1	0	1	1	1.672e-06	1778263	species	                    Candidatus Hoaglandella endobia
+0.0001285	1	1	1	1	1.693e-06	1003248516	sequence	                      LN999835.1 Enterobacteriaceae bacterium symbiont of Trionymus perrisii isolate HETPER genome assembly, chromosome: I
+0.0007709	6	0	33	1	1.288e-07	1903411	family	            Yersiniaceae
+0.0006424	5	3	26	1	1.783e-07	613	genus	              Serratia
+0.0001285	1	1	12	1	9.248e-07	82996	species	                Serratia plymuthica
+0.0001285	1	0	2	1	4.743e-07	82995	species	                Serratia grimesii
+0.0001285	1	1	2	1	4.748e-07	1002555702	sequence	                  LT883155.1 Serratia grimesii isolate BXF1 genome assembly, chromosome
+0.0001285	1	0	7	1	9.184e-08	629	genus	              Yersinia
+0.0001285	1	0	7	1	1.972e-06	2653513	no rank	                unclassified Yersinia
+0.0001285	1	0	7	1	0.1094	1360757	species	                  Yersinia sp. Ri2Pw_6062
+0.0001285	1	1	7	1	0.1094	1003124705	sequence	                    AB833216.1 Yersinia sp. Ri2Pw_6062 gene for 16S rRNA, partial sequence
+0.000257	2	0	6	1	4.511e-08	1903414	family	            Morganellaceae
+0.000257	2	0	6	1	1.422e-07	586	genus	              Providencia
+0.0001285	1	0	3	1	7.877e-07	2633465	no rank	                unclassified Providencia
+0.0001285	1	0	3	1	0.004792	1009032	species	                  Providencia sp. A1
+0.0001285	1	1	3	1	0.004792	1003004430	sequence	                    HQ386829.1 Providencia sp. A1 class 2 integron, partial sequence
+0.0001285	1	1	3	1	7.644e-07	126385	species	                Providencia alcalifaciens
+0.0001285	1	0	13	1	9.613e-08	1903410	family	            Pectobacteriaceae
+0.0001285	1	0	13	1	1.068e-06	84565	genus	              Sodalis
+0.0001285	1	0	13	1	3.455e-06	63612	species	                Sodalis glossinidius
+0.0001285	1	1	13	1	3.631e-06	343509	no rank	                  Sodalis glossinidius str. 'morsitans'
+0.0001285	1	0	9	1	4.774e-08	1903409	family	            Erwiniaceae
+0.0001285	1	0	9	1	9.493e-08	53335	genus	              Pantoea
+0.0001285	1	1	3	1	2.821e-07	553	species	                Pantoea ananatis
+0.001542	12	0	57	1	9.258e-08	135622	order	          Alteromonadales
+0.0007709	6	0	18	1	1.46e-07	267888	family	            Pseudoalteromonadaceae
+0.0007709	6	2	18	1	1.46e-07	53246	genus	              Pseudoalteromonas
+0.0001285	1	0	5	1	1.132e-06	621376	species	                Pseudoalteromonas donghaensis
+0.0001285	1	1	5	1	1.48e-06	1002912074	sequence	                  CP032090.1 Pseudoalteromonas donghaensis strain HJ51 chromosome, complete genome
+0.0001285	1	0	4	1	1.364e-07	194690	no rank	                unclassified Pseudoalteromonas
+0.0001285	1	0	4	1	0.5	887687	species	                  Pseudoalteromonas sp. ERGCD
+0.0001285	1	1	4	1	0.5	1002977412	sequence	                    HM439609.1 Pseudoalteromonas sp. ERGCD 16S ribosomal RNA gene, partial sequence
+0.0001285	1	0	2	1	5.738e-07	28107	species	                Pseudoalteromonas espejiana
+0.0001285	1	0	2	1	5.741e-07	1314869	no rank	                  Pseudoalteromonas espejiana DSM 9414
+0.0001285	1	1	2	1	6.958e-07	1003108795	sequence	                    CP011028.1 Pseudoalteromonas espejiana strain ATCC 29659 chromosome I, complete sequence
+0.0001285	1	1	2	1	4.32e-07	314281	species	                Pseudoalteromonas tunicata
+0.0005139	4	0	30	1	1.595e-07	267890	family	            Shewanellaceae
+0.0005139	4	3	30	1	1.671e-07	22	genus	              Shewanella
+0.0001285	1	0	5	1	1.284e-07	196818	no rank	                unclassified Shewanella
+0.0001285	1	0	5	1	1.5e-06	2698686	species	                  Shewanella sp. Arc9-LZ
+0.0001285	1	1	5	1	1.5e-06	1003421929	sequence	                    CP048031.1 Shewanella sp. Arc9-LZ chromosome, complete genome
+0.0001285	1	0	5	1	9.988e-08	267889	family	            Colwelliaceae
+0.0001285	1	0	5	1	1.437e-07	28228	genus	              Colwellia
+0.0001285	1	1	5	1	1.977e-07	196834	no rank	                unclassified Colwellia
+0.0001285	1	0	2	1	9.5e-09	72275	family	            Alteromonadaceae
+0.0001285	1	0	1	1	2.338e-07	1751872	genus	              Lacimicrobium
+0.0001285	1	0	1	1	2.338e-07	1526571	species	                Lacimicrobium alkaliphilum
+0.0001285	1	1	1	1	2.338e-07	1003176515	sequence	                  CP013650.1 Lacimicrobium alkaliphilum strain YelD216, complete genome
+0.0006424	5	0	118	1	7.823e-07	135613	order	          Chromatiales
+0.0006424	5	0	118	1	1.854e-06	1046	family	            Chromatiaceae
+0.0005139	4	0	108	1	9.911e-06	67575	genus	              Rheinheimera
+0.0005139	4	0	108	1	9.924e-06	115860	no rank	                unclassified Rheinheimera
+0.0005139	4	0	106	1	3.398e-05	2545632	species	                  Rheinheimera sp. D18
+0.0005139	4	4	106	1	3.398e-05	1003416815	sequence	                    CP037745.1 Rheinheimera sp. D18 chromosome, complete genome
+0.0001285	1	0	10	1	7.226e-07	1227	genus	              Nitrosococcus
+0.0001285	1	0	8	1	2.247e-06	1814290	species	                Nitrosococcus wardiae
+0.0001285	1	1	8	1	2.247e-06	1003257520	sequence	                  CP038033.1 Nitrosococcus wardiae strain D1FHS chromosome, complete genome
+0.0006424	5	0	38	1	1.243e-07	135619	order	          Oceanospirillales
+0.0003854	3	0	20	1	1.163e-07	28256	family	            Halomonadaceae
+0.000257	2	1	9	1	6.794e-08	2745	genus	              Halomonas
+0.0001285	1	0	7	1	1.091e-07	2609666	no rank	                unclassified Halomonas
+0.0001285	1	0	2	1	5.932e-07	1118153	species	                  Halomonas sp. GFAJ-1
+0.0001285	1	1	2	1	5.932e-07	1003033826	sequence	                    CP016490.1 Halomonas sp. GFAJ-1 chromosome, complete genome
+0.0001285	1	0	11	1	2.514e-06	114403	no rank	              Zymobacter group
+0.0001285	1	0	11	1	1.424e-05	114399	species	                whitefly endosymbionts
+0.0001285	1	0	11	1	1.432e-05	235572	genus	                  Candidatus Portiera
+0.0001285	1	0	11	1	1.434e-05	91844	species	                    Candidatus Portiera aleyrodidarum
+0.0001285	1	1	11	1	0.0412	1002576096	sequence	                      AY266093.1 Candidatus Portiera aleyrodidarum 16S ribosomal RNA gene, partial sequence; tRNA-Ile gene, complete sequence; and 23S ribosomal RNA gene, partial sequence
+0.0001285	1	1	14	1	2.631e-07	135620	family	            Oceanospirillaceae
+0.0001285	1	0	2	1	8.17e-08	224372	family	            Alcanivoracaceae
+0.0001285	1	1	2	1	1.015e-07	59753	genus	              Alcanivorax
+0.0003854	3	0	43	1	1.128e-07	135614	order	          Xanthomonadales
+0.0003854	3	0	43	1	1.297e-07	32033	family	            Xanthomonadaceae
+0.0001285	1	1	24	1	1.943e-07	40323	genus	              Stenotrophomonas
+0.0001285	1	0	9	1	8.203e-08	338	genus	              Xanthomonas
+0.0001285	1	0	9	1	6.267e-07	643453	species group	                Xanthomonas citri group
+0.0001285	1	1	9	1	6.267e-07	346	species	                  Xanthomonas citri
+0.0001285	1	0	6	1	6.301e-07	2370	genus	              Xylella
+0.0001285	1	1	6	1	8.773e-07	2371	species	                Xylella fastidiosa
+0.000257	2	0	7	1.57	1.191e-07	135618	order	          Methylococcales
+0.000257	2	0	7	1.57	1.191e-07	403	family	            Methylococcaceae
+0.000257	2	0	4	2	1.53e-07	416	genus	              Methylomonas
+0.000257	2	0	4	2	3.452e-07	2608980	no rank	                unclassified Methylomonas
+0.000257	2	0	4	2	8.26e-07	107637	species	                  Methylomonas sp. LW13
+0.000257	2	2	4	2	8.275e-07	1002593339	sequence	                    CP033381.1 Methylomonas sp. LW13 chromosome, complete genome
+0.0001285	1	0	13	1	1.12e-07	1706369	order	          Cellvibrionales
+0.0001285	1	0	13	1	2.898e-07	1706371	family	            Cellvibrionaceae
+0.0001285	1	0	13	1	5.491e-07	10	genus	              Cellvibrio
+0.0001285	1	0	13	1	6.754e-07	2624793	no rank	                unclassified Cellvibrio
+0.0001285	1	0	12	1	2.877e-06	454662	species	                  Cellvibrio sp. KY-YJ-3
+0.0001285	1	1	12	1	2.877e-06	1002836412	sequence	                    CP031727.1 Cellvibrio sp. KY-YJ-3 chromosome, complete genome
+0.0001285	1	0	4	2.25	5.179e-08	72273	order	          Thiotrichales
+0.0001285	1	0	4	2.25	9.792e-08	135616	family	            Piscirickettsiaceae
+0.0001285	1	0	2	1	1.608e-07	2039723	genus	              Thiomicrorhabdus
+0.0001285	1	0	2	1	2.728e-07	2636650	no rank	                unclassified Thiomicrorhabdus
+0.0001285	1	0	2	1	7.95e-07	2675053	species	                  Thiomicrorhabdus sp. AkT22
+0.0001285	1	1	2	1	7.951e-07	1003421127	sequence	                    AP021888.1 Thiomicrorhabdus sp. AkT22 DNA, complete genome
+0.0001285	1	0	9	1	7.382e-08	135625	order	          Pasteurellales
+0.0001285	1	0	9	1	7.382e-08	712	family	            Pasteurellaceae
+0.0001285	1	0	6	1	5.632e-07	745	genus	              Pasteurella
+0.0001285	1	0	6	1	7.036e-07	747	species	                Pasteurella multocida
+0.0001285	1	0	6	1	2.446e-06	44283	subspecies	                  Pasteurella multocida subsp. multocida
+0.0001285	1	0	6	1	3.279e-06	1304873	no rank	                    Pasteurella multocida subsp. multocida OH4807
+0.0001285	1	1	6	1	3.279e-06	1003105133	sequence	                      CP004391.1 Pasteurella multocida subsp. multocida OH4807, complete genome
+0.0001285	1	0	2	1	2.547e-07	1240482	order	          Orbales
+0.0001285	1	0	2	1	2.547e-07	1240483	family	            Orbaceae
+0.0001285	1	0	2	1	6.976e-07	1193503	genus	              Gilliamella
+0.0001285	1	0	2	1	6.98e-07	1196095	species	                Gilliamella apicola
+0.0001285	1	1	2	1	7.249e-07	1003066620	sequence	                  CP007445.1 Gilliamella apicola strain wkB1, complete genome
+0.2809	2186	7	31713	1	1.018e-05	28211	class	        Alphaproteobacteria
+0.2798	2178	11	31419	1	2.066e-05	356	order	          Rhizobiales
+0.278	2164	15	31092	1	0.0009347	118882	family	            Brucellaceae
+0.2761	2149	2024	30548	1	0.002863	234	genus	              Brucella
+0.01362	106	92	1059	1.03	0.002558	29459	species	                Brucella melitensis
+0.00167	13	0	138	1.15	0.01694	644337	no rank	                  Brucella melitensis bv. 1
+0.00167	13	0	138	1.15	0.01769	224914	no rank	                    Brucella melitensis bv. 1 str. 16M
+0.001156	9	9	97	1.22	0.03589	1002687652	sequence	                      AE008917.1 Brucella melitensis bv. 1 str. 16M chromosome I, complete sequence
+0.0005139	4	4	41	1	0.01522	1002687653	sequence	                      AE008918.1 Brucella melitensis 16M chromosome II, complete sequence
+0.0001285	1	1	6	1	0.008646	1002386071	sequence	                  CP018564.1 Brucella melitensis BwIM_XXX_12 chromosome 1 sequence
+0.001542	12	2	39	1	8.752e-06	2632610	no rank	                unclassified Brucella
+0.0003854	3	0	7	1	1.316e-05	1149952	species	                  Brucella sp. 09RB8471
+0.0003854	3	3	7	1	2.077e-05	1003044427	sequence	                    CP019347.1 Brucella sp. 09RB8471 chromosome 2, complete sequence
+0.0003854	3	0	3	1	3.956e-06	1844051	species	                  Brucella sp. 09RB8910
+0.000257	2	2	2	1	4.056e-06	1003264216	sequence	                    CP019390.1 Brucella sp. 09RB8910 chromosome 1, complete sequence
+0.0001285	1	1	1	1	3.823e-06	1003264217	sequence	                    CP019391.1 Brucella sp. 09RB8910 chromosome 2, complete sequence
+0.000257	2	0	9	1	1.195e-05	2592625	species	                  Brucella sp. 2280
+0.000257	2	2	9	1	2.145e-05	1003418928	sequence	                    CP045697.1 Brucella sp. 2280 chromosome 1, complete sequence
+0.0001285	1	0	3	1	5.175e-06	1885919	species	                  Brucella sp. 141012304
+0.0001285	1	1	3	1	8.695e-06	1003372773	sequence	                    LT605585.1 Brucella sp. 141012304 genome assembly, chromosome: 1
+0.0001285	1	0	2	1	2.807e-06	1149953	species	                  Brucella sp. 10RB9215
+0.0001285	1	1	2	1	8.1e-06	1003044446	sequence	                    LT599048.1 Brucella sp. 10RB9215 isolate BR10RB9215WGS1 genome assembly, chromosome: 2
+0.0003854	3	3	14	1	2.062e-05	981386	species	                Brucella vulpis
+0.0003854	3	0	10	1	2.039e-05	29461	species	                Brucella suis
+0.000257	2	0	9	1	4.874e-05	644346	no rank	                  Brucella suis bv. 1
+0.000257	2	2	9	1	7.587e-05	1002918988	sequence	                    CP045139.1 Brucella suis bv. 1 strain 60 chromosome I, complete sequence
+0.0001285	1	1	1	1	8.678e-06	645170	no rank	                  Brucella suis bv. 2
+0.0001285	1	0	6	1	2.96e-05	235	species	                Brucella abortus
+0.0001285	1	0	6	1	0.0007836	1210454	no rank	                  Brucella abortus 104M
+0.0001285	1	1	6	1	0.001295	1003071536	sequence	                    CP009625.1 Brucella abortus 104M chromosome 1, complete sequence
+0.000257	2	0	27	1	5.895e-08	82115	family	            Rhizobiaceae
+0.0001285	1	0	16	1	1.705e-07	227292	no rank	              Sinorhizobium/Ensifer group
+0.0001285	1	0	16	1	2.369e-07	28105	genus	                Sinorhizobium
+0.0001285	1	0	16	1	2.033e-06	2613772	no rank	                  unclassified Sinorhizobium
+0.0001285	1	0	16	1	2.652e-06	1842534	species	                    Sinorhizobium sp. RAC02
+0.0001285	1	1	16	1	4.341e-06	1003263698	sequence	                      CP016450.1 Sinorhizobium sp. RAC02, complete genome
+0.0001285	1	0	8	1	2.343e-08	227290	no rank	              Rhizobium/Agrobacterium group
+0.0001285	1	1	2	1	2.604e-08	357	genus	                Agrobacterium
+0.0001285	1	0	8	1	5.56e-08	119045	family	            Methylobacteriaceae
+0.0001285	1	0	8	1	2.969e-07	2282523	genus	              Methylorubrum
+0.0001285	1	1	8	1	7.531e-07	223967	species	                Methylorubrum populi
+0.0001285	1	0	2	1	5.936e-09	204441	order	          Rhodospirillales
+0.0001285	1	0	2	1	1.28e-08	433	family	            Acetobacteraceae
+0.0001285	1	0	2	1	5.381e-07	41293	no rank	              unclassified Acetobacteraceae
+0.0001285	1	0	2	1	5.391e-07	1909293	species	                Acetobacteraceae bacterium
+0.0001285	1	1	2	1	1.037e-06	1003380947	sequence	                  CP039460.1 Acetobacteraceae bacterium strain 868 chromosome, complete genome
+0.0005139	4	0	70	1	3.262e-08	28216	class	        Betaproteobacteria
+0.0003854	3	0	49	1	2.801e-08	80840	order	          Burkholderiales
+0.000257	2	0	23	1	2.721e-08	119060	family	            Burkholderiaceae
+0.0001285	1	0	4	1	7.688e-07	157932	genus	              Paucimonas
+0.0001285	1	0	4	1	7.688e-07	29443	species	                Paucimonas lemoignei
+0.0001285	1	1	4	1	7.726e-07	1002383056	sequence	                  LS483371.1 Paucimonas lemoignei strain NCTC10937 genome assembly, chromosome: 1
+0.0001285	1	0	1	1	1.4e-08	48736	genus	              Ralstonia
+0.0001285	1	0	1	1	1.274e-07	190721	species	                Ralstonia insidiosa
+0.0001285	1	1	1	1	1.175e-06	1002658040	sequence	                  CP016023.1 Ralstonia insidiosa strain ATCC 49129 chromosome 2, complete sequence
+0.0001285	1	1	2	1	9.179e-09	75682	family	            Oxalobacteraceae
+0.0001285	1	0	8	1	9.055e-08	206389	order	          Rhodocyclales
+0.0001285	1	0	8	1	1.348e-07	2008794	family	            Zoogloeaceae
+0.0001285	1	0	8	1	2.063e-07	12960	genus	              Azoarcus
+0.0001285	1	0	8	1	1.028e-06	41977	species	                Azoarcus communis
+0.0001285	1	1	8	1	2.484e-06	1002449654	sequence	                  CP022187.1 Azoarcus communis strain TSPY31 chromosome, complete genome
+1.394	10853	1	155109	1.02	1.718e-05	1783272	no rank	      Terrabacteria group
+1.394	10852	0	155031	1.02	3.336e-05	201174	phylum	        Actinobacteria
+1.394	10852	26	155031	1.02	3.425e-05	1760	class	          Actinobacteria
+1.39	10818	17	154386	1.02	0.0001291	85007	order	            Corynebacteriales
+1.387	10799	60	153225	1.02	0.0002679	1762	family	              Mycobacteriaceae
+1.379	10733	9700	150906	1.02	0.0006054	1763	genus	                Mycobacterium
+0.1278	995	518	11935	1	0.00212	77643	species group	                  Mycobacterium tuberculosis complex
+0.0564	439	300	4474	1.01	0.001956	1773	species	                    Mycobacterium tuberculosis
+0.001413	11	11	99	1	0.04714	1002301534	sequence	                      CP024614.1 Mycobacterium tuberculosis strain MYC004 chromosome
+0.0008994	7	7	75	1	0.002287	1002301417	sequence	                      CP008979.1 Mycobacterium tuberculosis strain 0A036DS genome
+0.0007709	6	0	26	1.12	0.005043	1334081	no rank	                      Mycobacterium tuberculosis 1821ADB41
+0.0007709	6	6	26	1.12	0.005043	1003115498	sequence	                        CP009203.1 Mycobacterium tuberculosis 1821ADB41 genome
+0.0006424	5	0	14	1	0.02233	1334068	no rank	                      Mycobacterium tuberculosis TRS22
+0.0006424	5	5	14	1	0.02233	1003115485	sequence	                        CP009183.1 Mycobacterium tuberculosis TRS22 genome
+0.0006424	5	0	12	1	0.004785	1334082	no rank	                      Mycobacterium tuberculosis 1821ADB42
+0.0006424	5	5	12	1	0.004785	1003115499	sequence	                        CP009204.1 Mycobacterium tuberculosis 1821ADB42 genome
+0.0006424	5	1	11	1	0.0001479	33894	no rank	                      Mycobacterium tuberculosis variant africanum
+0.0003854	3	0	8	1	0.001274	572418	no rank	                        Mycobacterium tuberculosis variant africanum GM041182
+0.0003854	3	3	8	1	0.001274	1002898489	sequence	                          FR878060.1 Mycobacterium africanum GM041182 complete genome
+0.0001285	1	1	1	1	7.357e-05	1002407115	sequence	                        CP014617.1 Mycobacterium africanum strain UT307 genome
+0.0006424	5	0	7	1	0.0001833	395095	no rank	                      Mycobacterium tuberculosis str. Haarlem
+0.0006424	5	0	7	1	0.0001929	1304279	no rank	                        Mycobacterium tuberculosis str. Haarlem/NITR202
+0.0006424	5	5	7	1	0.0001929	1003105061	sequence	                          CP004886.1 Mycobacterium tuberculosis str. Haarlem/NITR202, complete genome
+0.0005139	4	0	31	1	0.01703	1334048	no rank	                      Mycobacterium tuberculosis TRS2
+0.0005139	4	4	31	1	0.01703	1003115466	sequence	                        CP009186.1 Mycobacterium tuberculosis TRS2 genome
+0.0005139	4	0	21	1	0.00645	1334078	no rank	                      Mycobacterium tuberculosis 1821ADB37
+0.0005139	4	4	21	1	0.00645	1003115495	sequence	                        CP009200.1 Mycobacterium tuberculosis 1821ADB37 genome
+0.0005139	4	0	19	1	0.007634	1334072	no rank	                      Mycobacterium tuberculosis TRS26
+0.0005139	4	4	19	1	0.007634	1003115489	sequence	                        CP009193.1 Mycobacterium tuberculosis TRS26 genome
+0.0005139	4	0	11	1	0.02872	1334076	no rank	                      Mycobacterium tuberculosis 1821ADB35
+0.0005139	4	4	11	1	0.02872	1003115493	sequence	                        CP009198.1 Mycobacterium tuberculosis 1821ADB35 genome
+0.0003854	3	0	49	1	0.004522	83332	no rank	                      Mycobacterium tuberculosis H37Rv
+0.0003854	3	3	49	1	0.08319	1002556489	sequence	                        AL123456.3 Mycobacterium tuberculosis H37Rv complete genome
+0.0003854	3	0	29	1.14	0.008836	1334065	no rank	                      Mycobacterium tuberculosis TRS19
+0.0003854	3	3	29	1.14	0.008836	1003115482	sequence	                        CP009177.1 Mycobacterium tuberculosis TRS19 genome
+0.0003854	3	0	30	1	0.006687	1334057	no rank	                      Mycobacterium tuberculosis TRS11
+0.0003854	3	3	30	1	0.006687	1003115474	sequence	                        CP009197.1 Mycobacterium tuberculosis TRS11 genome
+0.0003854	3	3	28	1	0.004689	1002301434	sequence	                      CP010895.1 Mycobacterium tuberculosis strain PR08 genome
+0.0003854	3	0	23	1	0.008493	1334071	no rank	                      Mycobacterium tuberculosis TRS25
+0.0003854	3	3	23	1	0.008493	1003115488	sequence	                        CP009192.1 Mycobacterium tuberculosis TRS25 genome
+0.0003854	3	0	21	1	0.005941	1334079	no rank	                      Mycobacterium tuberculosis 1821ADB38
+0.0003854	3	3	21	1	0.005941	1003115496	sequence	                        CP009201.1 Mycobacterium tuberculosis 1821ADB38 genome
+0.0003854	3	0	16	1	0.00398	1334084	no rank	                      Mycobacterium tuberculosis 1821ADB45
+0.0003854	3	3	16	1	0.00398	1003115501	sequence	                        CP009206.1 Mycobacterium tuberculosis 1821ADB45 genome
+0.000257	2	2	27	1	0.004696	1002301419	sequence	                      CP008981.1 Mycobacterium tuberculosis strain 0A029DS genome
+0.000257	2	0	18	1	0.003868	1334047	no rank	                      Mycobacterium tuberculosis TRS1
+0.000257	2	2	18	1	0.003868	1003115465	sequence	                        CP009207.1 Mycobacterium tuberculosis TRS1 genome
+0.000257	2	2	17	1	0.001522	1002301415	sequence	                      CP008977.1 Mycobacterium tuberculosis strain 0A092DS genome
+0.000257	2	2	14	1	0.001088	1002301404	sequence	                      CP008966.1 Mycobacterium tuberculosis strain 0B218DS genome
+0.000257	2	2	5	2	0.001946	1002301567	sequence	                      CP049108.1 Mycobacterium tuberculosis strain 5005 chromosome, complete genome
+0.000257	2	0	8	1	0.003119	1334050	no rank	                      Mycobacterium tuberculosis TRS4
+0.000257	2	2	8	1	0.003119	1003115467	sequence	                        CP009189.1 Mycobacterium tuberculosis TRS4 genome
+0.000257	2	0	4	1	0.001611	1334061	no rank	                      Mycobacterium tuberculosis TRS15
+0.000257	2	2	4	1	0.001611	1003115478	sequence	                        CP009184.1 Mycobacterium tuberculosis TRS15 genome
+0.000257	2	2	4	1	0.0001492	1002301405	sequence	                      CP008967.1 Mycobacterium tuberculosis strain 0B169XDR genome
+0.000257	2	0	3	1	0.0007977	1334058	no rank	                      Mycobacterium tuberculosis TRS12
+0.000257	2	2	3	1	0.0007977	1003115475	sequence	                        CP009182.1 Mycobacterium tuberculosis TRS12 genome
+0.000257	2	0	3	1	0.0007032	1334052	no rank	                      Mycobacterium tuberculosis TRS6
+0.000257	2	2	3	1	0.0007032	1003115469	sequence	                        CP009188.1 Mycobacterium tuberculosis TRS6 genome
+0.000257	2	2	2	1	0.0003009	1002301552	sequence	                      CP028428.1 Mycobacterium tuberculosis strain CAS chromosome
+0.0001285	1	1	20	1	0.01761	1002301551	sequence	                      CP026742.1 Mycobacterium tuberculosis strain LJ319 chromosome
+0.0001285	1	0	17	1	0.002555	1334083	no rank	                      Mycobacterium tuberculosis 1821ADB44
+0.0001285	1	1	17	1	0.002555	1003115500	sequence	                        CP009205.1 Mycobacterium tuberculosis 1821ADB44 genome
+0.0001285	1	1	14	1	0.002689	1002301406	sequence	                      CP008968.1 Mycobacterium tuberculosis strain 0B123ND genome
+0.0001285	1	0	14	1	0.0008186	1306400	no rank	                      Mycobacterium tuberculosis str. Beijing/NITR203
+0.0001285	1	1	14	1	0.0008186	1003105524	sequence	                        CP005082.1 Mycobacterium tuberculosis str. Beijing/NITR203, complete genome
+0.0001285	1	1	13	1	0.00231	1002301429	sequence	                      CP010337.1 Mycobacterium tuberculosis strain 22115, complete genome
+0.0001285	1	0	13	1	0.02549	1334077	no rank	                      Mycobacterium tuberculosis 1821ADB36
+0.0001285	1	1	13	1	0.02549	1003115494	sequence	                        CP009199.1 Mycobacterium tuberculosis 1821ADB36 genome
+0.0001285	1	1	11	1	0.002862	1002300838	sequence	                      AD000014.1 Mycobacterium tuberculosis sequence from clone y423
+0.0001285	1	1	9	1	0.006294	1002301486	sequence	                      CP023593.1 Mycobacterium tuberculosis strain SLM040 chromosome, complete genome
+0.0001285	1	0	8	1	0.0003637	115862	no rank	                      Mycobacterium tuberculosis variant caprae
+0.0001285	1	1	8	1	0.0003664	1002602552	sequence	                        CP016401.1 Mycobacterium caprae strain Allgaeu genome
+0.0001285	1	1	8	1	0.002318	1002301438	sequence	                      CP013475.1 Mycobacterium tuberculosis strain 1458, complete genome
+0.0001285	1	0	8	1	0.001757	1334067	no rank	                      Mycobacterium tuberculosis TRS21
+0.0001285	1	1	8	1	0.001757	1003115484	sequence	                        CP009176.1 Mycobacterium tuberculosis TRS21 genome
+0.0001285	1	1	8	1	0.003596	1002301456	sequence	                      CP019611.1 Mycobacterium tuberculosis strain H83 chromosome, complete genome
+0.0001285	1	1	7	1	0.2258	1002303233	sequence	                      KP844718.1 Mycobacterium tuberculosis haplotype 33 insertion sequence IS6110 transposase (orfB) gene, partial cds
+0.0001285	1	0	6	1	0.00294	1334073	no rank	                      Mycobacterium tuberculosis TRS27
+0.0001285	1	1	6	1	0.00294	1003115490	sequence	                        CP009190.1 Mycobacterium tuberculosis TRS27 genome
+0.0001285	1	1	6	1	0.0003799	1002301411	sequence	                      CP008973.1 Mycobacterium tuberculosis strain 0A117DS genome
+0.0001285	1	0	5	1	0.0001655	1806	no rank	                      Mycobacterium tuberculosis variant microti
+0.0001285	1	1	5	1	0.0001695	1002310843	sequence	                        CP010333.1 Mycobacterium microti strain 12, complete genome
+0.0001285	1	1	5	1	0.000486	1002301401	sequence	                      CP008963.1 Mycobacterium tuberculosis strain 0B229DS genome
+0.0001285	1	0	4	1	0.001276	1334053	no rank	                      Mycobacterium tuberculosis TRS7
+0.0001285	1	1	4	1	0.001276	1003115470	sequence	                        CP009178.1 Mycobacterium tuberculosis TRS7 genome
+0.0001285	1	0	4	1	0.001122	1334054	no rank	                      Mycobacterium tuberculosis TRS8
+0.0001285	1	1	4	1	0.001122	1003115471	sequence	                        CP009196.1 Mycobacterium tuberculosis TRS8 genome
+0.0001285	1	1	4	1	0.000177	1002301410	sequence	                      CP008972.1 Mycobacterium tuberculosis strain 0B026XDR genome
+0.0001285	1	1	3	1	8.695e-05	1002301407	sequence	                      CP008969.1 Mycobacterium tuberculosis strain 0B076XDR genome
+0.0001285	1	0	3	1	0.01111	1334069	no rank	                      Mycobacterium tuberculosis TRS23
+0.0001285	1	1	3	1	0.01111	1003115486	sequence	                        CP009180.1 Mycobacterium tuberculosis TRS23 genome
+0.0001285	1	0	3	1	0.0008852	1334055	no rank	                      Mycobacterium tuberculosis TRS9
+0.0001285	1	1	3	1	0.0008852	1003115472	sequence	                        CP008702.1 Mycobacterium tuberculosis TRS9 genome
+0.0001285	1	1	3	1	8.886e-05	1002301566	sequence	                      CP048071.1 Mycobacterium tuberculosis strain RW-TB008 chromosome, complete genome
+0.0001285	1	0	2	1	0.0005277	1334062	no rank	                      Mycobacterium tuberculosis TRS16
+0.0001285	1	1	2	1	0.0005277	1003115479	sequence	                        CP009172.1 Mycobacterium tuberculosis TRS16 genome
+0.0001285	1	1	2	1	0.0005042	1002305059	sequence	                      LR027516.1 Mycobacterium tuberculosis strain DKC2 genome assembly, chromosome: 1
+0.0001285	1	1	2	1	0.0002624	1002301524	sequence	                      CP023631.1 Mycobacterium tuberculosis strain TBDM1506 chromosome, complete genome
+0.0001285	1	0	1	1	5.19e-06	1306413	no rank	                      Mycobacterium tuberculosis CAS
+0.0001285	1	0	1	1	5.19e-06	1310114	no rank	                        Mycobacterium tuberculosis CAS/NITR204
+0.0001285	1	1	1	1	5.19e-06	1003107053	sequence	                          CP005386.1 Mycobacterium tuberculosis CAS/NITR204, complete genome
+0.0001285	1	1	1	1	2.719e-05	1002301420	sequence	                      CP008983.1 Mycobacterium tuberculosis strain 0A005DS genome
+0.0001285	1	1	1	1	5.417e-05	1002301412	sequence	                      CP008974.1 Mycobacterium tuberculosis strain 0A115DS genome
+0.0001285	1	1	1	1	0.03226	1002303192	sequence	                      KP844677.1 Mycobacterium tuberculosis haplotype 12 insertion sequence IS6110 transposase (orfA) gene, complete cds
+0.0001285	1	1	1	1	8.813e-05	1002301427	sequence	                      CP010335.1 Mycobacterium tuberculosis strain 2242, complete genome
+0.0001285	1	1	1	1	0.0001398	1002301399	sequence	                      CP008961.1 Mycobacterium tuberculosis strain 0B259XDR genome
+0.0001285	1	1	1	1	0.002532	1002301090	sequence	                      AJ879180.1 Mycobacterium tuberculosis Rv1917c gene disrupted by deletion and insertion of IS6110, isolate 8088
+0.0001285	1	1	1	1	0.0003082	1002301537	sequence	                      CP025595.1 Mycobacterium tuberculosis strain GG-20-11 chromosome, complete genome
+0.0001285	1	1	1	1	0.000234	1002301465	sequence	                      CP023170.1 Mycobacterium tuberculosis strain C3 chromosome
+0.004882	38	10	185	1	5.922e-05	78331	species	                    Mycobacterium canettii
+0.001799	14	0	73	1	8.02e-05	1205677	no rank	                      Mycobacterium canettii CIPT 140070017
+0.001799	14	14	73	1	8.02e-05	1003070113	sequence	                        FO203510.1 Mycobacterium canettii CIPT 140070017 complete genome
+0.0008994	7	0	26	1	2.758e-05	1205674	no rank	                      Mycobacterium canettii CIPT 140070010
+0.0008994	7	7	26	1	2.758e-05	1003070110	sequence	                        FO203509.1 Mycobacterium canettii CIPT 140070010 complete genome
+0.0003854	3	0	19	1	7.733e-05	1205675	no rank	                      Mycobacterium canettii CIPT 140070008
+0.0003854	3	3	19	1	7.733e-05	1003070111	sequence	                        FO203508.1 Mycobacterium canettii CIPT 140070008 complete genome
+0.000257	2	0	6	1	7.976e-05	1048245	no rank	                      Mycobacterium canettii CIPT 140010059
+0.000257	2	2	6	1	7.978e-05	1003012797	sequence	                        HE572590.1 Mycobacterium canettii CIPT 140010059 complete genome
+0.000257	2	0	5	1	8.675e-05	1205676	no rank	                      Mycobacterium canettii CIPT 140060008
+0.000257	2	2	5	1	8.675e-05	1003070112	sequence	                        FO203507.1 Mycobacterium canettii CIPT 140060008 complete genome
+0.0007709	6	6	32	1	5.837e-06	486698	species	                  Mycobacterium riyadhense
+0.0007709	6	1	12	1	3.382e-07	2249310	species group	                  Mycobacterium simiae complex
+0.000257	2	0	6	1	1.137e-06	1784	species	                    Mycobacterium simiae
+0.000257	2	2	6	1	1.139e-06	1002308628	sequence	                      AP022568.1 Mycobacterium simiae JCM 12377 DNA, complete genome
+0.0001285	1	0	3	1	5.723e-07	292462	species	                    Mycobacterium florentinum
+0.0001285	1	1	3	1	5.724e-07	1002734996	sequence	                      AP022576.1 Mycobacterium florentinum JCM 14740 DNA, complete genome
+0.0001285	1	0	1	1	2.428e-07	53376	species	                    Mycobacterium heidelbergense
+0.0001285	1	1	1	1	2.429e-07	1002491293	sequence	                      AP022615.1 Mycobacterium heidelbergense JCM 14842 DNA, nearly complete genome
+0.0001285	1	0	1	1	2.092e-07	722731	species	                    Mycobacterium shigaense
+0.0001285	1	1	1	1	5.434e-06	1002956439	sequence	                      CP022927.1 Mycobacterium shigaense strain SCY chromosome, complete genome
+0.0006424	5	0	34	1	8.971e-06	398694	species	                  Mycobacterium shinjukuense
+0.0006424	5	5	34	1	8.973e-06	1002801139	sequence	                    AP022575.1 Mycobacterium shinjukuense JCM 14233 DNA, complete genome
+0.0005139	4	0	13	1	3.011e-06	169765	species	                  Mycobacterium lacus
+0.0005139	4	4	13	1	3.012e-06	1002643006	sequence	                    AP022581.1 Mycobacterium lacus JCM 15657 DNA, complete genome
+0.000257	2	0	13	1	2.03e-06	1389713	species	                  Mycobacterium paragordonae
+0.000257	2	2	13	1	2.186e-06	1003133250	sequence	                    CP025546.1 Mycobacterium paragordonae strain 49061 chromosome, complete genome
+0.000257	2	0	9	1	2.324e-06	29311	species	                  Mycobacterium haemophilum
+0.000257	2	0	9	1	2.327e-06	1202450	no rank	                    Mycobacterium haemophilum DSM 44634
+0.000257	2	2	9	1	2.329e-06	1003069312	sequence	                      CP011883.2 Mycobacterium haemophilum DSM 44634 strain ATCC 29548, complete genome
+0.000257	2	1	7	1	1.162e-07	2642494	no rank	                  unclassified Mycobacterium
+0.0001285	1	0	6	1	9.664e-07	1936029	species	                    Mycobacterium sp. MS1601
+0.0001285	1	1	6	1	1.018e-06	1003390008	sequence	                      CP019420.1 Mycobacterium sp. MS1601, complete genome
+0.000257	2	0	4	1	7.887e-07	2094119	species	                  Mycobacterium basiliense
+0.000257	2	2	4	1	7.887e-07	1003405883	sequence	                    LR130759.1 Mycobacterium sp. DSM 104308 isolate 901379 genome assembly, chromosome: I
+0.000257	2	0	4	1	1.116e-06	386911	species	                  Mycobacterium seoulense
+0.000257	2	2	4	1	1.116e-06	1002793704	sequence	                    AP022582.1 Mycobacterium seoulense JCM 16018 DNA, complete genome
+0.0001285	1	0	5	1	1.148e-06	1789	species	                  Mycobacterium xenopi
+0.0001285	1	1	5	1	1.151e-06	1002310093	sequence	                    AP022314.1 Mycobacterium xenopi JCM 15661T DNA, complete genome
+0.0001285	1	0	3	1	6.887e-07	459858	species	                  Mycobacterium noviomagense
+0.0001285	1	1	3	1	6.889e-07	1002839972	sequence	                    AP022583.1 Mycobacterium noviomagense JCM 16367 DNA, complete genome
+0.0001285	1	1	3	1	9.627e-07	1769	species	                  Mycobacterium leprae
+0.0001285	1	1	1	1	2.866e-08	120793	species group	                  Mycobacterium avium complex (MAC)
+0.0001285	1	0	1	1	1.856e-07	44010	species	                  Mycobacterium conspicuum
+0.0001285	1	1	1	1	1.856e-07	1002459210	sequence	                    AP022613.1 Mycobacterium conspicuum JCM 14738 DNA, nearly complete genome
+0.0001285	1	0	1	1	3.351e-06	265949	species	                  Mycobacterium pseudoshottsii
+0.0001285	1	0	1	1	3.352e-06	1136880	no rank	                    Mycobacterium pseudoshottsii JCM 15466
+0.0001285	1	1	1	1	3.356e-06	1003039553	sequence	                      AP018410.1 Mycobacterium pseudoshottsii JCM 15466 DNA, complete genome
+0.0001285	1	0	1	1	1.867e-07	43348	species	                  Mycobacterium branderi
+0.0001285	1	1	1	1	2.215e-07	1002455541	sequence	                    AP022606.1 Mycobacterium branderi JCM 12687 DNA, nearly complete genome
+0.0006424	5	0	33	1	1.5e-07	1866885	genus	                Mycolicibacterium
+0.000257	2	0	5	1	4.902e-07	758802	species	                  Mycolicibacterium litorale
+0.000257	2	2	5	1	9.064e-07	1002962531	sequence	                    CP019882.1 Mycolicibacterium litorale strain F4 chromosome, complete genome
+0.0001285	1	0	11	1	1.024e-06	1791	species	                  Mycolicibacterium aurum
+0.0001285	1	1	11	1	2.013e-06	1002310244	sequence	                    LR134356.1 Mycolicibacterium aurum strain NCTC10437 genome assembly, chromosome: 1
+0.0001285	1	1	8	1	1.674e-06	1792	species	                  Mycolicibacterium chitae
+0.0001285	1	0	3	1	6.33e-07	1776	species	                  Mycolicibacterium flavescens
+0.0001285	1	1	3	1	6.368e-07	1002307573	sequence	                    LR134353.1 Mycolicibacterium flavescens strain NCTC10271 genome assembly, chromosome: 1
+0.0001285	1	0	3	1	2.406e-07	1073531	genus	                Mycolicibacter
+0.0001285	1	1	3	1	7.792e-07	1788	species	                  Mycolicibacter terrae
+0.0001285	1	0	4	1	1.326e-08	85025	family	              Nocardiaceae
+0.0001285	1	0	3	1	1.65e-08	1827	genus	                Rhodococcus
+0.0001285	1	0	2	1	1.777e-07	1828	species	                  Rhodococcus fascians
+0.0001285	1	0	2	1	5.77e-07	1443893	no rank	                    Rhodococcus fascians A21d2
+0.0001285	1	1	2	1	6.378e-07	1003150551	sequence	                      CP049748.1 Rhodococcus fascians A21d2 chromosome, complete genome
+0.0001285	1	0	1	1	4.625e-09	1653	family	              Corynebacteriaceae
+0.0001285	1	1	1	1	4.677e-09	1716	genus	                Corynebacterium
+0.0005139	4	0	15	1.4	1.134e-08	85011	order	            Streptomycetales
+0.0005139	4	0	15	1.4	1.134e-08	2062	family	              Streptomycetaceae
+0.0005139	4	0	15	1.4	1.166e-08	1883	genus	                Streptomyces
+0.0003854	3	0	11	1.55	2.425e-08	2593676	no rank	                  unclassified Streptomyces
+0.0003854	3	0	10	1.6	4.74e-06	1188315	species	                    Streptomyces sp. AgN23
+0.0003854	3	3	10	1.6	4.74e-06	1003063632	sequence	                      CP007153.1 Streptomyces sp. AgN23 genome
+0.0001285	1	0	3	1	1.596e-07	629295	species group	                  Streptomyces griseus group
+0.0001285	1	0	3	1	4.321e-07	1482558	species subgroup	                    Streptomyces albovinaceus subgroup
+0.0001285	1	0	3	1	4.322e-07	1908	species	                      Streptomyces globisporus
+0.0001285	1	0	3	1	9.839e-07	1172567	no rank	                        Streptomyces globisporus C-1027
+0.0001285	1	1	3	1	1.007e-06	1003056872	sequence	                          CP013738.1 Streptomyces globisporus C-1027, complete genome
+0.0001285	1	0	8	1	3.677e-08	85009	order	            Propionibacteriales
+0.0001285	1	0	8	1	6.44e-08	85015	family	              Nocardioidaceae
+0.0001285	1	0	8	1	1.093e-07	1839	genus	                Nocardioides
+0.0001285	1	0	8	1	2.046e-06	450734	species	                  Nocardioides dokdonensis
+0.0001285	1	0	8	1	2.046e-06	1300347	no rank	                    Nocardioides dokdonensis FR1436
+0.0001285	1	1	8	1	2.046e-06	1003103350	sequence	                      CP015079.1 Nocardioides dokdonensis FR1436, complete genome
+0.0001285	1	0	4	1	4.706e-09	85006	order	            Micrococcales
+0.0001285	1	0	4	1	1.156e-08	85023	family	              Microbacteriaceae
+0.0001285	1	0	4	1	1.693e-07	33877	genus	                Agromyces
+0.0001285	1	0	1	1	3.042e-07	589382	species	                  Agromyces flavus
+0.0001285	1	1	1	1	3.042e-07	1002906442	sequence	                    LT629755.1 Agromyces flavus strain CPCC 202695 genome assembly, chromosome: I
+0.0001285	1	0	3	1	4.391e-08	85004	order	            Bifidobacteriales
+0.0001285	1	1	3	1	4.391e-08	31953	family	              Bifidobacteriaceae
+0.0001285	1	0	2	1	7.394e-09	85010	order	            Pseudonocardiales
+0.0001285	1	1	2	1	7.394e-09	2070	family	              Pseudonocardiaceae
+0.0001285	1	0	2	1	9.211e-08	200783	phylum	      Aquificae
+0.0001285	1	0	2	1	9.211e-08	187857	class	        Aquificae
+0.0001285	1	0	2	1	1.074e-07	32069	order	          Aquificales
+0.0001285	1	0	2	1	4.009e-07	224027	family	            Hydrogenothermaceae
+0.0001285	1	0	2	1	1.024e-06	182899	genus	              Persephonella
+0.0001285	1	1	2	1	1.068e-06	309805	species	                Persephonella marina
+0.0001285	1	0	2	1	1.38e-08	203691	phylum	      Spirochaetes
+0.0001285	1	0	2	1	1.38e-08	203692	class	        Spirochaetia
+0.0001285	1	0	2	1	4.362e-08	1643688	order	          Leptospirales
+0.0001285	1	0	2	1	4.362e-08	170	family	            Leptospiraceae
+0.0001285	1	0	2	1	4.807e-08	171	genus	              Leptospira
+0.0001285	1	0	2	1	2.135e-07	173	species	                Leptospira interrogans
+0.0001285	1	1	2	1	2.027e-06	211880	no rank	                  Leptospira interrogans serovar Canicola
+0.002313	18	0	29	3.97	2.197e-09	2759	superkingdom	    Eukaryota
+0.00167	13	0	2	18	1.889e-09	2698737	no rank	      Sar
+0.00167	13	0	2	18	2.862e-09	33630	no rank	        Alveolata
+0.00167	13	0	2	18	3.524e-09	5794	phylum	          Apicomplexa
+0.00167	13	0	2	18	9.181e-09	1280412	class	            Conoidasida
+0.00167	13	0	2	18	9.553e-09	5796	subclass	              Coccidia
+0.00167	13	0	2	18	9.553e-09	75739	order	                Eucoccidiorida
+0.00167	13	0	2	18	9.559e-09	423054	suborder	                  Eimeriorina
+0.00167	13	0	2	18	4.021e-08	5799	family	                    Eimeriidae
+0.00167	13	0	2	18	5.091e-08	5800	genus	                      Eimeria
+0.00167	13	0	2	18	3.852e-07	44415	species	                        Eimeria mitis
+0.00167	13	13	2	18	0.003906	1000447110	sequence	                          XM_013494305.1 Eimeria mitis hypothetical protein, conserved partial mRNA
+0.0006424	5	0	22	3.36	1.955e-09	33154	no rank	      Opisthokonta
+0.0003854	3	0	16	1.5	3.094e-09	33208	kingdom	        Metazoa
+0.0003854	3	0	16	1.5	3.094e-09	6072	no rank	          Eumetazoa
+0.0003854	3	0	16	1.5	3.094e-09	33213	no rank	            Bilateria
+0.0003854	3	0	15	1.53	5.988e-09	33511	no rank	              Deuterostomia
+0.0003854	3	0	15	1.53	5.988e-09	7711	phylum	                Chordata
+0.0003854	3	0	15	1.53	5.988e-09	89593	subphylum	                  Craniata
+0.0003854	3	0	15	1.53	5.988e-09	7742	no rank	                    Vertebrata
+0.0003854	3	0	15	1.53	5.988e-09	7776	no rank	                      Gnathostomata
+0.0003854	3	0	15	1.53	5.988e-09	117570	no rank	                        Teleostomi
+0.0003854	3	0	15	1.53	5.988e-09	117571	no rank	                          Euteleostomi
+0.0003854	3	0	15	1.53	5.988e-09	8287	superclass	                            Sarcopterygii
+0.0003854	3	0	15	1.53	5.988e-09	1338369	no rank	                              Dipnotetrapodomorpha
+0.0003854	3	0	15	1.53	5.988e-09	32523	no rank	                                Tetrapoda
+0.0003854	3	0	15	1.53	5.988e-09	32524	no rank	                                  Amniota
+0.0003854	3	0	15	1.53	5.988e-09	40674	class	                                    Mammalia
+0.0003854	3	0	15	1.53	5.988e-09	32525	no rank	                                      Theria
+0.0003854	3	0	15	1.53	5.988e-09	9347	no rank	                                        Eutheria
+0.0003854	3	0	15	1.53	5.988e-09	1437010	no rank	                                          Boreoeutheria
+0.0003854	3	0	15	1.53	5.988e-09	314146	superorder	                                            Euarchontoglires
+0.0003854	3	0	15	1.53	5.988e-09	9443	order	                                              Primates
+0.0003854	3	0	15	1.53	5.988e-09	376913	suborder	                                                Haplorrhini
+0.0003854	3	0	15	1.53	5.988e-09	314293	infraorder	                                                  Simiiformes
+0.0003854	3	0	15	1.53	5.988e-09	9526	parvorder	                                                    Catarrhini
+0.0003854	3	0	15	1.53	5.988e-09	314295	superfamily	                                                      Hominoidea
+0.0003854	3	0	15	1.53	5.988e-09	9604	family	                                                        Hominidae
+0.0003854	3	0	15	1.53	5.988e-09	207598	subfamily	                                                          Homininae
+0.0003854	3	0	15	1.53	5.988e-09	9605	genus	                                                            Homo
+0.0003854	3	3	15	1.53	5.988e-09	9606	species	                                                              Homo sapiens
+0.000257	2	0	5	9.4	8.276e-10	4751	kingdom	        Fungi
+0.000257	2	0	5	9.4	8.522e-10	451864	subkingdom	          Dikarya
+0.000257	2	0	3	15	2.708e-09	5204	phylum	            Basidiomycota
+0.000257	2	1	3	15	4.118e-09	5302	subphylum	              Agaricomycotina
+0.0001285	1	0	2	12	4.432e-09	155619	class	                Agaricomycetes
+0.0001285	1	0	1	22	4.799e-09	452333	subclass	                  Agaricomycetidae
+0.0001285	1	0	1	22	2.578e-08	68889	order	                    Boletales
+0.0001285	1	0	1	22	4.196e-07	227330	suborder	                      Boletineae
+0.0001285	1	0	1	22	4.224e-07	5368	family	                        Boletaceae
+0.0001285	1	0	1	22	8.407e-07	1487592	subfamily	                          Boletoideae
+0.0001285	1	0	1	22	3.953e-06	5369	genus	                            Boletus
+0.0001285	1	0	1	22	1.106e-05	2606876	no rank	                              unclassified Boletus
+0.0001285	1	0	1	22	0.01075	1559156	species	                                Boletus sp. LM5517
+0.0001285	1	1	1	22	0.01075	1011463684	sequence	                                  KM576325.1 Boletus sp. LM5517 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence
+2.375	18485	0	74158	3.76	9.194e-05	10239	superkingdom	  Viruses
+1.757	13676	0	14330	14.5	4.526e-05	2559587	no rank	    Riboviria
+1.757	13676	0	14330	14.5	0.0002052	2732397	kingdom	      Pararnavirae
+1.757	13676	0	14330	14.5	0.0002052	2732409	phylum	        Artverviricota
+1.757	13676	0	14330	14.5	0.0002052	2732514	class	          Revtraviricetes
+1.757	13676	0	14330	14.5	0.004866	2732515	order	            Blubervirales
+1.757	13676	996	14330	14.5	0.004866	10404	family	              Hepadnaviridae
+1.629	12680	102	13819	12.7	0.00491	10405	genus	                Orthohepadnavirus
+1.616	12578	11351	13659	12.6	0.004962	10407	species	                  Hepatitis B virus
+0.0618	481	0	80	63.7	0.02705	489483	no rank	                    HBV genotype D
+0.06141	478	478	76	67	1	1006760904	sequence	                      LT717703.1 HBV genotype D isolate M111a genome assembly, chromosome: HBV_sample_M111a
+0.000257	2	2	1	2	0.02128	1006760903	sequence	                      LT717702.1 HBV genotype D isolate M283 genome assembly, chromosome: HBV_sample_M283
+0.0001285	1	0	3	1	0.006479	1219352	no rank	                      HBV genotype D4
+0.0001285	1	1	3	1	0.02381	1006941641	sequence	                        HE974372.1 HBV genotype D4 complete genome, isolate Mart-B36
+0.00167	13	13	39	2.41	0.4021	1004923513	sequence	                    MH925824.1 Hepatitis B virus isolate Hakka_1 large S protein (S) gene, partial cds
+0.001156	9	9	5	3.4	0.1613	1004915367	sequence	                    KY361376.1 Hepatitis B virus isolate E113-2 nonfunctional S protein (S) gene, complete sequence
+0.0008994	7	7	12	1.42	0.1165	1004852902	sequence	                    AM421538.1 Hepatitis B virus partial core gene, isolate MMA-10
+0.0007709	6	6	10	2.2	0.06944	1004861026	sequence	                    EU027287.1 Hepatitis B virus isolate FR-HBVrt-pt4-3-33 polymerase (P) gene, partial cds
+0.0007709	6	6	5	3.2	0.07812	1004917787	sequence	                    L42360.1 Hepatitis B virus (clone C2) C-gene with internal deletions
+0.0007709	6	6	8	1.62	0.1111	1004914596	sequence	                    KY355761.1 Hepatitis B virus isolate BR32_25 large S protein (S) gene, complete cds
+0.0007709	6	6	2	5	0.01299	1004879248	sequence	                    JF754620.1 Hepatitis B virus isolate TK39, complete genome
+0.0006424	5	5	15	2.67	0.05725	1004902235	sequence	                    KM606747.1 Hepatitis B virus isolate Cuba34, complete genome
+0.0006424	5	5	18	2.11	0.1111	1004857131	sequence	                    DQ464174.1 Hepatitis B virus isolate LT6 clone 1 HBcAg protein, Pol protein (Pol), and HBsAg protein (S) genes, complete cds; and X protein (X) gene, partial cds
+0.0006424	5	5	11	2.45	0.09649	1004903331	sequence	                    KP288875.1 Hepatitis B virus isolate PatC, complete genome
+0.0006424	5	5	12	1.92	1	1004917512	sequence	                    KY881806.1 Hepatitis B virus isolate patient-02 clone 05, complete genome
+0.0006424	5	5	13	1.69	0.1215	1004923743	sequence	                    MK052957.1 Hepatitis B virus isolate NP137-11, complete genome
+0.0006424	5	5	14	1.5	0.4375	1004883117	sequence	                    JQ707300.1 Hepatitis B virus isolate BMM1-C11 polymerase gene, complete cds
+0.0006424	5	5	16	1.25	0.04706	1004880660	sequence	                    JN688711.2 Hepatitis B virus isolate HBV161, complete genome
+0.0006424	5	5	7	2.57	0.07692	1004884097	sequence	                    JX090614.1 Hepatitis B virus isolate I-AL199 large S protein-like (S) gene, complete sequence
+0.0006424	5	5	13	1.38	0.1494	1004879404	sequence	                    JF815677.1 Hepatitis B virus strain HBV39 clone 16 polymerase (P) gene, partial cds; and large S protein (S) gene, complete cds
+0.0006424	5	5	7	2	0.01148	1004917551	sequence	                    KY881845.1 Hepatitis B virus isolate patient-04 clone 02, complete genome
+0.0006424	5	5	4	3.25	0.07018	1004874363	sequence	                    GU079213.1 Hepatitis B virus isolate S1495 reverse transcriptase (RT) gene, partial cds
+0.0006424	5	5	6	2.17	0.1538	1004904959	sequence	                    KP997385.1 Hepatitis B virus isolate 141_B polymerase (Pol) gene, partial cds
+0.0006424	5	5	5	2.4	0.1136	1004906926	sequence	                    KT001362.1 Hepatitis B virus isolate 498 nonfunctional core protein (C) gene, partial sequence
+0.0006424	5	5	3	3.33	1	1004860848	sequence	                    EU027100.1 Hepatitis B virus isolate FR-HBVrt-pt3-1-24 polymerase (P) gene, partial cds
+0.0006424	5	5	3	3	0.1111	1004883295	sequence	                    JQ707480.1 Hepatitis B virus isolate PC1_C14 polymerase gene, complete cds
+0.0006424	5	5	2	4	0.02532	1004879568	sequence	                    JN040827.1 Hepatitis B virus isolate 919008, complete genome
+0.0006424	5	5	3	2.33	0.01852	1004926339	sequence	                    MK355500.1 Hepatitis B virus isolate Ahvaz30, complete genome
+0.0005139	4	4	25	1.52	0.8065	1004861425	sequence	                    EU027760.1 Hepatitis B virus isolate FR-HBVrt-pt5-38-61 polymerase (P) gene, partial cds
+0.0005139	4	4	22	1.18	0.7097	1004906378	sequence	                    KR811703.1 Hepatitis B virus isolate 82T.5. X protein (X) gene, partial cds
+0.0005139	4	4	16	1.56	0.2105	1004910326	sequence	                    KU667938.1 Hepatitis B virus isolate 69-49c nonfunctional precore/core protein (C) and nonfunctional core protein (C) genes, complete sequence
+0.0005139	4	4	16	1.5	0.5333	1004853391	sequence	                    AY161155.1 Hepatitis B virus clone S6.6, complete genome
+0.0005139	4	4	13	1.69	1	1004863476	sequence	                    EU736506.1 Hepatitis B virus isolate H7T1-17 X protein (X), precore/core protein (C), and core protein (C) genes, partial cds
+0.0005139	4	4	10	1.8	0.04902	1004850683	sequence	                    AF208872.1 Hepatitis B virus isolate pal3649 small surface antigen (s) gene, complete cds
+0.0005139	4	4	13	1.31	0.09559	1004906970	sequence	                    KT026091.1 Hepatitis B virus isolate SHR-9Ca large S protein (S) gene, partial cds
+0.0005139	4	4	13	1.15	0.4483	1004860734	sequence	                    EU026963.1 Hepatitis B virus isolate FR-HBVrt-pt2-26-37 polymerase (P) gene, partial cds
+0.0005139	4	4	7	2	0.2593	1004860401	sequence	                    EU026565.1 Hepatitis B virus isolate FR-HBVrt-pt1-1-25 polymerase (P) gene, partial cds
+0.0005139	4	4	9	1.44	0.225	1004864167	sequence	                    EU919170.1 Hepatitis B virus isolate patient29, complete genome
+0.0005139	4	4	6	1.5	0.1935	1004869473	sequence	                    GQ183477.1 Hepatitis B virus isolate MOD_4604, complete genome
+0.0005139	4	4	4	2	0.02985	1004857132	sequence	                    DQ464175.1 Hepatitis B virus isolate LT6 clone 3, partial sequence
+0.0005139	4	4	4	2	0.08163	1004853500	sequence	                    AY230114.1 Hepatitis B virus clone 4 core protein gene, complete cds
+0.0005139	4	4	5	1.4	0.5	1004920263	sequence	                    MG715358.1 Hepatitis B virus isolate 432 polymerase (P) gene, partial cds
+0.0005139	4	4	2	3.5	0.08	1004897810	sequence	                    KF985190.1 Hepatitis B virus isolate 3975 precore/core protein (C) gene, partial cds
+0.0005139	4	4	3	2.33	0.04225	1004884170	sequence	                    JX090691.1 Hepatitis B virus isolate Y-PR628 large S protein-like (S) gene, complete sequence
+0.0005139	4	4	3	2	0.03409	1004923567	sequence	                    MH925878.1 Hepatitis B virus isolate MLM_227 large S protein (S) gene, partial cds
+0.0005139	4	4	2	3	0.01709	1004874889	sequence	                    GU248631.1 Hepatitis B virus isolate 610_RS polymerase (P) gene, partial cds; and nonfunctional large S protein (S), nonfunctional middle S protein (S), and nonfunctional S protein (S) genes, partial sequence
+0.0005139	4	4	2	2.5	0.02174	1004884166	sequence	                    JX090687.1 Hepatitis B virus isolate I-NUK635 large S protein (S) gene, complete cds
+0.0005139	4	4	2	2.5	0.06061	1004861126	sequence	                    EU027398.1 Hepatitis B virus isolate FR-HBVrt-pt4-18-6 polymerase (P) gene, partial cds
+0.0005139	4	4	1	4	0.006536	1004875717	sequence	                    GU979933.1 Hepatitis B virus isolate HBLS_091102 nonfunctional large S protein (S) gene, complete sequence
+0.0005139	4	4	1	4	0.03226	1004861571	sequence	                    EU027931.1 Hepatitis B virus isolate FR-HBVrt-pt6-10-28 polymerase (P) gene, partial cds
+0.0003854	3	3	24	1.29	0.3871	1004883345	sequence	                    JQ707530.1 Hepatitis B virus isolate PC3_C9 polymerase gene, complete cds
+0.0003854	3	3	17	1.65	0.1753	1004880036	sequence	                    JN257182.1 Hepatitis B virus isolate WHMSL, complete genome
+0.0003854	3	3	18	1.44	0.75	1004917872	sequence	                    LC279276.1 Hepatitis B virus DNA, complete genome, isolate: L_mother_nail
+0.0003854	3	3	15	1.6	0.2941	1004908556	sequence	                    KT723207.1 Hepatitis B virus isolate LU196-2PLc16_D polymerase and large S1 protein genes, partial cds
+0.0003854	3	3	19	1.21	0.6129	1004879156	sequence	                    JF439974.1 Hepatitis B virus isolate roc01d6 polymerase (P) gene, partial cds
+0.0003854	3	3	10	2.1	0.07143	1004896179	sequence	                    KF471648.1 Hepatitis B virus isolate PG-32, complete genome
+0.0003854	3	3	19	1.11	0.2262	1004878924	sequence	                    JF439702.1 Hepatitis B virus isolate FEN145 polymerase (P) gene, complete cds
+0.0003854	3	3	12	1.67	0.3871	1004861412	sequence	                    EU027742.1 Hepatitis B virus isolate FR-HBVrt-pt5-37-7 polymerase (P) gene, partial cds
+0.0003854	3	3	11	1.73	0.3793	1004863534	sequence	                    EU736588.1 Hepatitis B virus isolate H9T4-14 X protein (X), precore/core protein (C), and core protein (C) genes, partial cds
+0.0003854	3	3	9	1.89	1	1004861396	sequence	                    EU027710.1 Hepatitis B virus isolate FR-HBVrt-pt5-34-22 polymerase (P) gene, partial cds
+0.0003854	3	3	11	1.27	0.3548	1004880611	sequence	                    JN664939.1 Hepatitis B virus isolate EN71_LC, complete genome
+0.0003854	3	3	8	1.75	0.2759	1004906906	sequence	                    KT001342.1 Hepatitis B virus isolate 306 core protein (C) gene, partial cds
+0.0003854	3	3	13	1.08	0.1529	1004862588	sequence	                    EU414085.1 Hepatitis B virus strain 28019 large S protein gene, partial cds
+0.0003854	3	3	7	2	0.1148	1004879402	sequence	                    JF815675.1 Hepatitis B virus strain HBV39 clone 14 polymerase-like (P) gene, partial sequence; and large S protein (S) gene, complete cds
+0.0003854	3	3	11	1.18	0.1222	1004922991	sequence	                    MH724241.1 Hepatitis B virus isolate BR33, complete genome
+0.0003854	3	3	9	1.33	0.2812	1004906393	sequence	                    KR811720.1 Hepatitis B virus isolate 82NT.6. X protein (X) gene, partial cds
+0.0003854	3	3	8	1.5	0.2667	1004875459	sequence	                    GU815605.1 Hepatitis B virus isolate B3-12, complete genome
+0.0003854	3	3	8	1.25	0.2051	1004862787	sequence	                    EU594382.1 Hepatitis B virus strain 3798-91, complete genome
+0.0003854	3	3	7	1.29	0.07865	1004853394	sequence	                    AY161158.1 Hepatitis B virus clone S7.2 complete genome
+0.0003854	3	3	3	3	0.08108	1004906324	sequence	                    KR811635.1 Hepatitis B virus isolate 76T.20. X protein (X) gene, partial cds
+0.0003854	3	3	5	1.8	0.007862	1004927428	sequence	                    U73609.1 Hepatitis B virus, genome 7720 with G->A hypermutations
+0.0003854	3	3	6	1.17	0.24	1004888651	sequence	                    KC339789.1 Hepatitis B virus isolate IR-387 large S protein (S) gene, partial cds
+0.0003854	3	3	6	1.17	0.02062	1004917878	sequence	                    LC316661.1 Hepatitis B virus SP-H gene, preC/core protein
+0.0003854	3	3	2	3.5	0.03448	1004880451	sequence	                    JN604249.1 Hepatitis B virus isolate 479-2196-2 polymerase (P) gene, partial cds; and large S protein (S), middle S protein (S), and S protein (S) genes, complete cds
+0.0003854	3	3	4	1.75	0.05556	1004879134	sequence	                    JF439952.1 Hepatitis B virus isolate roc99a12 polymerase (P) gene, partial cds
+0.0003854	3	3	4	1.5	0.05797	1004916719	sequence	                    KY548738.1 Hepatitis B virus isolate VJH8 core protein (C) gene, partial cds
+0.0003854	3	3	4	1.5	0.06452	1004897522	sequence	                    KF917451.1 Hepatitis B virus isolate YN.071, complete genome
+0.0003854	3	3	2	3	0.0303	1004923559	sequence	                    MH925870.1 Hepatitis B virus isolate MDY_155 large S protein (S) gene, partial cds
+0.0003854	3	3	2	2.5	1	1004860671	sequence	                    EU026883.1 Hepatitis B virus isolate FR-HBVrt-pt2-14-2 polymerase (P) gene, partial cds
+0.0003854	3	3	3	1.67	0.03371	1004862574	sequence	                    EU414071.1 Hepatitis B virus strain 28030 large S protein gene, partial cds
+0.0003854	3	3	2	2	0.06452	1004908696	sequence	                    KT723413.1 Hepatitis B virus isolate LU223-2PLc12_D core protein gene, partial cds
+0.0003854	3	3	2	2	0.1	1004863330	sequence	                    EU726967.1 Hepatitis B virus isolate IR-RCGLD-3257 X protein gene, partial cds; and precore protein and core protein genes, complete cds
+0.0003854	3	3	3	1.33	0.02222	1004849016	sequence	                    AB330368.1 Hepatitis B virus X gene for X protein, complete cds, isolate: TAJ54HBV
+0.0003854	3	3	2	2	0.05405	1004910760	sequence	                    KU668433.1 Hepatitis B virus isolate OHBV-HCV071, complete genome
+0.0003854	3	3	2	2	0.01212	1004905776	sequence	                    KR013931.1 Hepatitis B virus strain 468.17, complete genome
+0.0003854	3	3	1	3	0.008929	1004914073	sequence	                    KX827291.1 Hepatitis B virus isolate geno2.2, complete sequence
+0.0003854	3	3	1	3	0.006849	1004900484	sequence	                    KJ647352.1 Hepatitis B virus isolate HBV219, complete genome
+0.0003854	3	3	1	3	0.005464	1004895820	sequence	                    KF170752.1 Hepatitis B virus isolate SDAC_088 large S protein (S) gene, complete cds
+0.0003854	3	3	1	3	0.004274	1004900672	sequence	                    KJ810859.1 Hepatitis B virus isolate FL01 precore/core protein (C) gene, partial cds
+0.0003854	3	3	1	3	0.004831	1004880440	sequence	                    JN604238.1 Hepatitis B virus isolate 478-5785-2 polymerase (P) gene, partial cds; and large S protein (S), middle S protein (S), and S protein (S) genes, complete cds
+0.000257	2	2	30	1	0.2344	1004883306	sequence	                    JQ707491.1 Hepatitis B virus isolate PC1_C3 polymerase gene, complete cds
+0.000257	2	2	13	1.85	0.104	1004902056	sequence	                    KM524344.1 Hepatitis B virus isolate MK070_EP-CHB, complete genome
+0.000257	2	2	20	1.15	0.6452	1004861715	sequence	                    EU028094.1 Hepatitis B virus isolate FR-HBVrt-pt7-4-30 polymerase (P) gene, partial cds
+0.000257	2	2	22	1	0.3385	1004920612	sequence	                    MG776761.1 Hepatitis B virus isolate SA-1204 X protein (X) gene, complete cds
+0.000257	2	2	14	1.43	0.1647	1004917508	sequence	                    KY881802.1 Hepatitis B virus isolate patient-02 clone 01, complete genome
+0.000257	2	2	10	2	1	1004883322	sequence	                    JQ707507.1 Hepatitis B virus isolate PC1_C48 polymerase gene, complete cds
+0.000257	2	2	16	1.25	0.7273	1004862836	sequence	                    EU594433.1 Hepatitis B virus strain 4605-97, complete genome
+0.000257	2	2	12	1.5	0.5714	1004860436	sequence	                    EU026601.1 Hepatitis B virus isolate FR-HBVrt-pt1-13-29 polymerase (P) gene, partial cds
+0.000257	2	2	14	1.29	0.2917	1004875592	sequence	                    GU815763.1 Hepatitis B virus isolate G2-1, complete genome
+0.000257	2	2	17	1.06	0.06204	1004864556	sequence	                    EU939637.1 Hepatitis B virus isolate C13, complete genome
+0.000257	2	2	10	1.7	0.03448	1004868385	sequence	                    FJ904436.1 Hepatitis B virus isolate B28, complete genome
+0.000257	2	2	12	1.42	0.08759	1004889197	sequence	                    KC752138.1 Hepatitis B virus isolate INCHB175 large S protein (S) gene, complete cds
+0.000257	2	2	13	1.23	0.3023	1004918952	sequence	                    MF150684.1 Hepatitis B virus isolate MEX944M polymerase (P) gene, partial cds
+0.000257	2	2	10	1.5	1	1004868575	sequence	                    FJ939029.1 Hepatitis B virus isolate LC18-8 truncated precore protein gene, complete cds
+0.000257	2	2	7	2	0.07778	1004905617	sequence	                    KR013772.1 Hepatitis B virus strain 327.14, complete genome
+0.000257	2	2	11	1.27	0.04889	1004847902	sequence	                    AB188241.1 Hepatitis B virus DNA, complete genome, isolate:KAMCHATKA25
+0.000257	2	2	12	1.17	0.4	1004901362	sequence	                    KM108606.1 Hepatitis B virus isolate SDH005OBID1 large S protein (S) gene, complete cds
+0.000257	2	2	13	1	0.2063	1004910773	sequence	                    KU668447.1 Hepatitis B virus isolate OHBV-HCV191, complete genome
+0.000257	2	2	7	1.86	0.04636	1004914301	sequence	                    KY210508.1 Hepatitis B virus isolate 857 large S protein (S) gene, complete cds; polymerase (P) gene, partial cds; and middle S protein (S) and S protein (S) genes, complete cds
+0.000257	2	2	13	1	0.325	1004919644	sequence	                    MG491151.1 Hepatitis B virus isolate ShrSan29TC precore/core protein gene, partial cds
+0.000257	2	2	12	1	0.09677	1004927175	sequence	                    MN507853.1 Hepatitis B virus isolate 2564_ocHBVd_GC, complete genome
+0.000257	2	2	9	1.22	0.36	1004888704	sequence	                    KC339842.1 Hepatitis B virus isolate IR-410 large S protein (S) gene, complete cds
+0.000257	2	2	10	1.1	0.3846	1004923188	sequence	                    MH725198.1 Hepatitis B virus isolate SA-1489 precore-core protein gene, complete cds
+0.000257	2	2	5	2	0.02976	1004917240	sequence	                    KY810025.1 Hepatitis B virus isolate RP_173 polymerase (Pol) gene, partial cds
+0.000257	2	2	6	1.67	0.2727	1004925210	sequence	                    MK173264.1 Hepatitis B virus isolate NOR447 polymerase (P) gene, partial cds
+0.000257	2	2	7	1.29	0.06364	1004864174	sequence	                    EU919197.1 Hepatitis B virus isolate XJU, complete genome
+0.000257	2	2	8	1.12	0.3636	1004855112	sequence	                    AY879211.1 Hepatitis B virus isolate EI00615 S protein (S) gene, partial cds
+0.000257	2	2	6	1.5	0.8571	1004918833	sequence	                    MF061162.1 Hepatitis B virus isolate Hep-C102 X protein (HBx) gene, partial cds
+0.000257	2	2	8	1.12	0.1481	1004908604	sequence	                    KT723258.1 Hepatitis B virus isolate LU260PLc12_D polymerase and large S1 protein genes, partial cds
+0.000257	2	2	5	1.6	0.03268	1004919473	sequence	                    MF925390.1 Hepatitis B virus isolate BD-HBV34, complete genome
+0.000257	2	2	8	1	0.381	1004879679	sequence	                    JN107840.1 Hepatitis B virus isolate IBT-258 large S protein (S) gene, partial cds
+0.000257	2	2	8	1	0.381	1004883517	sequence	                    JQ707704.1 Hepatitis B virus isolate S13_5 polymerase gene, complete cds
+0.000257	2	2	6	1.33	0.8571	1004911669	sequence	                    KU964023.1 Hepatitis B virus isolate 16_4 core protein (C) gene, complete cds
+0.000257	2	2	8	1	0.04124	1004907448	sequence	                    KT355696.1 Hepatitis B virus isolate SBMU_20_IV-OBI nonfunctional S protein (S) gene, complete sequence
+0.000257	2	2	8	1	0.04494	1004900482	sequence	                    KJ647350.1 Hepatitis B virus isolate HBV197, complete genome
+0.000257	2	2	6	1.17	0.3158	1004868569	sequence	                    FJ939023.1 Hepatitis B virus isolate LC18-5 truncated precore protein gene, complete cds
+0.000257	2	2	3	2.33	0.4286	1004926115	sequence	                    MK213861.1 Hepatitis B virus strain s7 reverse transcriptase gene, partial cds
+0.000257	2	2	7	1	0.175	1004906614	sequence	                    KR811966.1 Hepatitis B virus isolate 84T.5. nonfunctional X protein gene, complete sequence
+0.000257	2	2	6	1.17	0.125	1004862125	sequence	                    EU177485.1 Hepatitis B virus clone FR_HBVpreS-S_14 large S protein (S) gene, partial cds
+0.000257	2	2	3	2	0.09677	1004851184	sequence	                    AF350135.1 Hepatitis B virus isolate Gam1136F31 precore/core protein gene, complete cds
+0.000257	2	2	3	2	0.03371	1004914295	sequence	                    KY210502.1 Hepatitis B virus isolate 467 polymerase (P) gene, partial cds; nonfunctional large S protein (S) and nonfunctional middle S protein (S) genes, complete sequence; and S protein (S) gene, complete cds
+0.000257	2	2	5	1.2	0.05	1004860302	sequence	                    EF666102.1 Hepatitis B virus isolate 3 nonfunctional X peptide (X) gene, partial sequence
+0.000257	2	2	5	1.2	0.07576	1004905615	sequence	                    KR013770.1 Hepatitis B virus strain 274.19a, complete genome
+0.000257	2	2	3	2	0.0001559	1401315	no rank	                    Bat Hepatitis B virus
+0.000257	2	2	5	1.2	0.03425	1004859110	sequence	                    DQ993702.1 Hepatitis B virus isolate JMY-0919-ETCvs3TC-Naive, complete genome
+0.000257	2	2	3	1.67	0.01911	1004917527	sequence	                    KY881821.1 Hepatitis B virus isolate patient-03 clone 02, complete genome
+0.000257	2	2	4	1.25	0.05	1004884035	sequence	                    JX036333.1 Hepatitis B virus isolate Y2-11 polymerase protein (P) gene, partial cds; and surface antigen (s) gene, complete cds
+0.000257	2	2	2	2	0.06897	1004857245	sequence	                    DQ629965.1 Hepatitis B virus isolate 551h Hbx protein (HBX) gene, complete cds
+0.000257	2	2	3	1.33	0.04412	1004853206	sequence	                    AY090453.1 Hepatitis B virus strain 14-94, complete genome
+0.000257	2	2	2	2	0.1667	1004923163	sequence	                    MH725164.1 Hepatitis B virus isolate SA-1761 precore-core protein gene, complete cds
+0.000257	2	2	3	1.33	0.125	1004863408	sequence	                    EU736421.1 Hepatitis B virus isolate H3T2-3 X protein (X), precore/core protein (C), and core protein (C) genes, partial cds
+0.000257	2	2	3	1.33	0.07692	1004860788	sequence	                    EU027032.1 Hepatitis B virus isolate FR-HBVrt-pt2-33-31 polymerase (P) gene, partial cds
+0.000257	2	2	3	1.33	0.04918	1004874962	sequence	                    GU456647.1 Hepatitis B virus isolate I_T130, complete genome
+0.000257	2	2	2	1.5	0.02041	1004849748	sequence	                    AB583679.1 Hepatitis B virus DNA, complete genome, isolate: Pkst8134
+0.000257	2	2	2	1.5	0.0339	1004877727	sequence	                    HQ288040.1 Hepatitis B virus isolate P798 surface antigen (sAg) gene, partial cds
+0.000257	2	2	2	1.5	1	1004853710	sequence	                    AY274422.1 Hepatitis B virus isolate D-19 precore protein (C) gene, partial cds
+0.000257	2	2	2	1.5	0.03774	1004849662	sequence	                    AB493832.1 Hepatitis B virus DNA, complete genome, isolate: P19
+0.000257	2	2	3	1	0.03571	1004920912	sequence	                    MG826349.1 Hepatitis B virus isolate YNKM40 polymerase (P) gene, partial cds
+0.000257	2	2	3	1	0.02013	1004923758	sequence	                    MK052972.1 Hepatitis B virus isolate NP137Q-12, complete genome
+0.000257	2	2	2	1.5	0.007576	1004857126	sequence	                    DQ464169.1 Hepatitis B virus isolate LT8 clone 2 HBcAg protein, Pol protein (Pol), and HBsAg protein (S) genes, complete cds; and X protein (X) gene, partial cds
+0.000257	2	2	2	1.5	0.04082	1004923112	sequence	                    MH725095.1 Hepatitis B virus isolate SA-707 precore-core protein gene, complete cds
+0.000257	2	2	2	1.5	0.02632	1004847903	sequence	                    AB188242.1 Hepatitis B virus DNA, complete genome, isolate:KAMCHATKA38
+0.000257	2	2	1	3	0.01299	1004864632	sequence	                    FJ001972.1 Hepatitis B virus isolate B.3.3 S gene, partial sequence
+0.000257	2	2	3	1	0.02069	1004919191	sequence	                    MF618349.1 Hepatitis B virus isolate OHBV-HIV165, complete genome
+0.000257	2	2	2	1.5	0.0113	1004847796	sequence	                    AB119256.1 Hepatitis B virus DNA, complete genome, strain:Ehime18:Iyo 529246
+0.000257	2	2	1	2	0.01408	1004851011	sequence	                    AF324071.1 Hepatitis B virus isolate A16 core protein gene, complete cds
+0.000257	2	2	1	2	0.01667	1004911960	sequence	                    KU964390.1 Hepatitis B virus isolate 31_12 core protein (C) gene, complete cds
+0.000257	2	2	2	1	0.025	1004851566	sequence	                    AF474387.1 Hepatitis B virus isolate Rel4.3/X core protein (C) gene, partial cds
+0.000257	2	2	1	2	0.125	1004876229	sequence	                    HG329829.1 Hepatitis B virus partial preC-C gene for HBe/core protein, isolate Mart-B57
+0.000257	2	2	1	2	0.04348	1004875103	sequence	                    GU594121.1 Hepatitis B virus isolate DE06UAE S protein-like gene, partial sequence
+0.000257	2	2	1	2	0.02941	1004921652	sequence	                    MH219354.1 Hepatitis B virus isolate Luxembourg_4 S protein (S) gene, partial cds
+0.000257	2	2	1	2	0.3333	1004873519	sequence	                    GQ858935.1 Hepatitis B virus isolate BH53 precore/core protein (C) gene, partial cds
+0.000257	2	2	1	2	0.02632	1004912522	sequence	                    KX196231.1 Hepatitis B virus isolate HBVFL0116, complete genome
+0.0001285	1	1	29	1	0.145	1004902049	sequence	                    KM524337.1 Hepatitis B virus isolate HBV013_EP-CHB, complete genome
+0.0001285	1	1	26	1	0.8667	1004901231	sequence	                    KJ997863.1 Hepatitis B virus clone CIRR2C2TISSUE X protein gene, complete cds
+0.0001285	1	1	21	1	0.6774	1004912508	sequence	                    KX196214.1 Hepatitis B virus isolate HBVFL099, complete genome
+0.0001285	1	1	19	1	0.7917	1004900188	sequence	                    KJ496219.1 Hepatitis B virus isolate SDAC007 clone 23 X protein (X) gene, partial cds; nonfunctional precore/core protein (C) gene, partial sequence; and core protein (C) gene, partial cds
+0.0001285	1	1	18	1	0.4865	1004918026	sequence	                    LT623674.1 Hepatitis B virus partial P pseudogene for polyprotein, pol region, strain 74284
+0.0001285	1	1	18	1	0.1579	1004879223	sequence	                    JF754595.1 Hepatitis B virus isolate TK164, complete genome
+0.0001285	1	1	18	1	0.4865	1004862822	sequence	                    EU594418.1 Hepatitis B virus strain 4653-97 polymerase (P), large S protein (S), middle S protein (S), and S protein (S) genes, complete cds; and X protein (X) gene, partial cds
+0.0001285	1	1	18	1	0.03232	1004857195	sequence	                    DQ486023.1 Hepatitis B virus isolate LT10, complete genome
+0.0001285	1	1	17	1	0.7391	1004923130	sequence	                    MH725120.1 Hepatitis B virus isolate SA-960 precore-core protein gene, complete cds
+0.0001285	1	1	17	1	0.1809	1004895884	sequence	                    KF192836.1 Hepatitis B virus isolate TP69, complete genome
+0.0001285	1	1	16	1	0.0796	1004927501	sequence	                    X69458.1 Hepatitis B Virus DNA sequence of pre-S and S gene region
+0.0001285	1	1	15	1	0.25	1004890351	sequence	                    KC875286.1 Hepatitis B virus isolate HBV17 genotype D, complete genome
+0.0001285	1	1	15	1	1	1004878867	sequence	                    JF271743.1 Hepatitis B virus isolate MORO-HEP-125 hepatitis B surface antigen (S) gene, partial cds
+0.0001285	1	1	15	1	0.4839	1004860893	sequence	                    EU027146.1 Hepatitis B virus isolate FR-HBVrt-pt3-15-20 polymerase (P) gene, partial cds
+0.0001285	1	1	11	1.27	0.06509	1004905650	sequence	                    KR013805.1 Hepatitis B virus strain 574.17, complete genome
+0.0001285	1	1	14	1	0.359	1004879194	sequence	                    JF440013.1 Hepatitis B virus isolate FEN84, complete genome
+0.0001285	1	1	13	1	0.1757	1004851886	sequence	                    AJ010002.1 Hepatitis B virus (patient 7a isolate) c and p genes, partial
+0.0001285	1	1	13	1	0.2031	1004883567	sequence	                    JQ707754.1 Hepatitis B virus isolate S35_33 polymerase gene, complete cds
+0.0001285	1	1	13	1	0.1	1004884191	sequence	                    JX090712.1 Hepatitis B virus isolate Y-SH435 large S protein (S) gene, complete cds
+0.0001285	1	1	12	1	0.04211	1004874993	sequence	                    GU456678.1 Hepatitis B virus isolate I_T97, complete genome
+0.0001285	1	1	12	1	0.08759	1004922994	sequence	                    MH724244.1 Hepatitis B virus isolate BR36, complete genome
+0.0001285	1	1	12	1	0.07101	1004902072	sequence	                    KM524360.1 Hepatitis B virus isolate EHBV.I-033_HIV-HBV, complete genome
+0.0001285	1	1	12	1	0.4444	1004861135	sequence	                    EU027410.1 Hepatitis B virus isolate FR-HBVrt-pt4-18-27 polymerase (P) gene, partial cds
+0.0001285	1	1	12	1	0.9231	1004926680	sequence	                    MK618422.1 Hepatitis B virus isolate HBV_occult_Arkh21, complete genome
+0.0001285	1	1	12	1	0.06936	1004877965	sequence	                    HQ385248.1 Hepatitis B virus isolate S407 large S protein (S) gene, complete cds
+0.0001285	1	1	11	1	0.3548	1004915356	sequence	                    KY361359.1 Hepatitis B virus isolate E35-4 S protein (S) gene, complete cds
+0.0001285	1	1	11	1	0.4074	1004858572	sequence	                    DQ859564.1 Hepatitis B virus isolate Alaska1126 S protein-like (S) gene, partial sequence
+0.0001285	1	1	11	1	0.275	1004903076	sequence	                    KP191649.1 Hepatitis B virus isolate S18014 large S protein, middle S protein, and S protein genes, complete cds
+0.0001285	1	1	11	1	0.3929	1004901394	sequence	                    KM359441.1 Hepatitis B virus isolate FF6, complete genome
+0.0001285	1	1	11	1	0.1068	1004884183	sequence	                    JX090704.1 Hepatitis B virus isolate KR-DU142 large S protein (S) gene, complete cds
+0.0001285	1	1	11	1	0.1392	1004907624	sequence	                    KT367602.1 Hepatitis B virus isolate ETH2530 polymerase (P) and surface protein (S) genes, partial cds
+0.0001285	1	1	11	1	0.1183	1004918028	sequence	                    LT623676.1 Hepatitis B virus partial P pseudogene for polyprotein, pol region, strain 74290
+0.0001285	1	1	11	1	0.09649	1004896492	sequence	                    KF771951.1 Hepatitis B virus isolate ARC85 S protein (S) gene, complete cds
+0.0001285	1	1	11	1	0.08871	1004848672	sequence	                    AB270537.1 Hepatitis B virus DNA, complete genome, isolate: MGL22F
+0.0001285	1	1	10	1	0.08475	1004847617	sequence	                    AB104716.1 Hepatitis B virus s gene for pre-S and S protein, complete cds, isolate: EG89
+0.0001285	1	1	10	1	0.1064	1004884182	sequence	                    JX090703.1 Hepatitis B virus isolate KR-DU120 large S protein (S) gene, complete cds
+0.0001285	1	1	10	1	0.5263	1004917968	sequence	                    LT623614.1 Hepatitis B virus partial P pseudogene for polyprotein, pol region, strain 74061
+0.0001285	1	1	10	1	0.07143	1004871087	sequence	                    GQ477487.1 Hepatitis B virus isolate P60, complete genome
+0.0001285	1	1	10	1	0.3333	1004867972	sequence	                    FJ815034.1 Hepatitis B virus isolate M11T1c4 precore/core protein (C) gene, partial cds
+0.0001285	1	1	10	1	0.03788	1004874966	sequence	                    GU456651.1 Hepatitis B virus isolate I_T34, complete genome
+0.0001285	1	1	10	1	0.3846	1004860896	sequence	                    EU027149.1 Hepatitis B virus isolate FR-HBVrt-pt3-15-26 polymerase (P) gene, partial cds
+0.0001285	1	1	10	1	0.2083	1004860505	sequence	                    EU026674.1 Hepatitis B virus isolate FR-HBVrt-pt1-26-6 polymerase (P) gene, partial cds
+0.0001285	1	1	10	1	0.3226	1004861627	sequence	                    EU027994.1 Hepatitis B virus isolate FR-HBVrt-pt6-13-26 polymerase (P) gene, partial cds
+0.0001285	1	1	10	1	0.3226	1004853191	sequence	                    AY079229.1 Hepatitis B virus isolate 26B core protein (C) gene, partial cds
+0.0001285	1	1	10	1	0.5	1004889616	sequence	                    KC792679.1 Hepatitis B virus isolate EP0032 polymerase (pol) gene, partial cds
+0.0001285	1	1	10	1	0.06944	1004902048	sequence	                    KM524336.1 Hepatitis B virus isolate HBV010_EP-CHB, complete genome
+0.0001285	1	1	9	1	0.09677	1004864176	sequence	                    EU921419.1 Hepatitis B virus isolate 22.252.07, complete genome
+0.0001285	1	1	9	1	0.375	1004915729	sequence	                    KY428732.1 Hepatitis B virus isolate CHB-25-PS large S protein (S) gene, partial cds
+0.0001285	1	1	9	1	0.25	1004916831	sequence	                    KY631595.1 Hepatitis B virus isolate CHB2112-PS-GTD-KSA polymerase (P) and middle S protein (S) genes, partial cds
+0.0001285	1	1	9	1	0.09783	1004922983	sequence	                    MH724233.1 Hepatitis B virus isolate BR24, complete genome
+0.0001285	1	1	9	1	0.08911	1004848741	sequence	                    AB287319.1 Hepatitis B virus DNA, complete genome, isolate: AlaskaG23
+0.0001285	1	1	9	1	0.1268	1004896190	sequence	                    KF471659.1 Hepatitis B virus isolate PG-3, complete genome
+0.0001285	1	1	9	1	0.125	1004910401	sequence	                    KU668014.1 Hepatitis B virus isolate 95-58c nonfunctional precore/core protein (C) gene, complete sequence; and core protein (C) gene, complete cds
+0.0001285	1	1	9	1	0.04737	1004883109	sequence	                    JQ687530.1 Hepatitis B virus isolate Srb 200, complete genome
+0.0001285	1	1	7	1.29	0.06422	1004905068	sequence	                    KP997494.1 Hepatitis B virus isolate 201 polymerase (Pol) gene, partial cds
+0.0001285	1	1	8	1	0.2667	1004920520	sequence	                    MG776644.1 Hepatitis B virus isolate SA-725 X protein (X) gene, complete cds
+0.0001285	1	1	8	1	0.5714	1004903848	sequence	                    KP311239.1 Hepatitis B virus isolate MK24ETH polymerase (P) and middle S protein (S) genes, partial cds
+0.0001285	1	1	8	1	0.2051	1004909938	sequence	                    KU667549.1 Hepatitis B virus isolate 15-14c nonfunctional precore/core protein (C) gene, complete sequence; and core protein (C) gene, complete cds
+0.0001285	1	1	8	1	0.06557	1004884049	sequence	                    JX036347.1 Hepatitis B virus isolate B15_CD polymerase protein (P) gene, partial cds; and small surface antigen (s) gene, complete cds
+0.0001285	1	1	8	1	0.129	1004879202	sequence	                    JF440021.1 Hepatitis B virus isolate MAU05C6 polymerase (P) gene, complete cds
+0.0001285	1	1	8	1	0.05714	1004868771	sequence	                    FM211404.1 Hepatitis B virus S gene for large surface protein, isolate QQB73
+0.0001285	1	1	8	1	0.1311	1004883380	sequence	                    JQ707565.1 Hepatitis B virus isolate PM1-C45 polymerase gene, complete cds
+0.0001285	1	1	8	1	0.06202	1004849689	sequence	                    AB555497.1 Hepatitis B virus DNA, complete genome, isolate: HBV-TA37
+0.0001285	1	1	8	1	0.03125	1004927498	sequence	                    X65258.1 Hepatitis B virus (ayw,patient CI) genes PreS1, PreS2, PreC, C, X and polymerase
+0.0001285	1	1	8	1	0.07207	1004914081	sequence	                    KX827299.1 Hepatitis B virus isolate geno20.11, complete sequence
+0.0001285	1	1	7	1	0.2258	1004927364	sequence	                    MT004770.1 Hepatitis B virus strain QE20191 large S protein (S) gene, complete cds
+0.0001285	1	1	7	1	0.2333	1004861016	sequence	                    EU027277.1 Hepatitis B virus isolate FR-HBVrt-pt4-3-1 polymerase (P) gene, partial cds
+0.0001285	1	1	7	1	0.5833	1004860841	sequence	                    EU027093.1 Hepatitis B virus isolate FR-HBVrt-pt3-1-4 polymerase (P) gene, partial cds
+0.0001285	1	1	7	1	0.6364	1004891668	sequence	                    KF165221.1 Hepatitis B virus isolate 1559 nonfunctional precore/core protein (C) gene, partial sequence; and core protein (C) gene, partial cds
+0.0001285	1	1	7	1	0.09722	1004879106	sequence	                    JF439924.1 Hepatitis B virus isolate LAMB00B2 truncated polymerase (P) gene, complete cds
+0.0001285	1	1	7	1	0.04965	1004890380	sequence	                    KC875315.1 Hepatitis B virus isolate HBV8 genotype D, complete genome
+0.0001285	1	1	7	1	0.08974	1004890328	sequence	                    KC875263.1 Hepatitis B virus isolate HBV61 genotype C, complete genome
+0.0001285	1	1	7	1	0.07292	1004880477	sequence	                    JN604275.1 Hepatitis B virus isolate 477-1046-4 polymerase (P) gene, partial cds; and large S protein (S), middle S protein (S), and S protein (S) genes, complete cds
+0.0001285	1	1	7	1	0.05882	1004919198	sequence	                    MF674386.1 Hepatitis B virus isolate HBV040010, complete genome
+0.0001285	1	1	7	1	0.05932	1004847614	sequence	                    AB104713.1 Hepatitis B virus S gene for pre-S and S protein, complete cds, isolate: EG77
+0.0001285	1	1	7	1	0.2692	1004896716	sequence	                    KF811727.1 Hepatitis B virus isolate M0910-502_M09105041_BCP-ZX011B-B11_M13+ precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	6	1	0.4	1004853021	sequence	                    AM494812.1 Hepatitis B virus C gene, isolate CAR177-2
+0.0001285	1	1	6	1	0.016	1004847609	sequence	                    AB100695.1 Hepatitis B virus DNA, complete genome, isolate: HBV-VH133
+0.0001285	1	1	6	1	1	1004923062	sequence	                    MH725022.1 Hepatitis B virus isolate Sa-314 precore-core protein gene, complete cds
+0.0001285	1	1	6	1	0.0375	1004879544	sequence	                    JN040803.1 Hepatitis B virus isolate 919031, complete genome
+0.0001285	1	1	6	1	0.1017	1004922240	sequence	                    MH272680.1 Hepatitis B virus isolate 381HBV2015 polymerase (pol) gene, partial cds
+0.0001285	1	1	6	1	0.75	1004916817	sequence	                    KY631581.1 Hepatitis B virus isolate CHB2022-PS-GTD-KSA large S protein (S), polymerase (P), and middle S protein (S) genes, partial cds
+0.0001285	1	1	6	1	0.6	1004880179	sequence	                    JN418559.1 Hepatitis B virus isolate T117 X protein (X) gene, complete cds
+0.0001285	1	1	6	1	0.1364	1004890863	sequence	                    KC934308.1 Hepatitis B virus isolate 1J-508 nonfunctional precore/core protein (C) gene, partial sequence; and core protein (C) gene, partial cds
+0.0001285	1	1	6	1	0.4615	1004920992	sequence	                    MH048734.1 Hepatitis B virus isolate AF028 preS protein (PreS) gene, partial cds
+0.0001285	1	1	6	1	0.1091	1004896794	sequence	                    KF811813.1 Hepatitis B virus isolate M0425638_XU-BCP2-5_BCP-2S-1604 precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	6	1	0.2069	1004920317	sequence	                    MG776377.1 Hepatitis B virus isolate SA-1 X protein (X) gene, complete cds
+0.0001285	1	1	6	1	0.05607	1004851919	sequence	                    AJ243932.1 Hepatitis B virus partial C gene for core antigen, strain Uruguay 2
+0.0001285	1	1	6	1	0.01858	1004854291	sequence	                    AY509974.1 Hepatitis B virus isolate SP1664REC core (C) gene, complete cds; and polymerase (P) and LHBS/MHBS/HBsAg (S) genes, partial cds
+0.0001285	1	1	5	1	0.1389	1004847473	sequence	                    AB073830.1 Hepatitis B virus DNA, complete genome, isolate:HBV-TH57
+0.0001285	1	1	5	1	0.07937	1004910711	sequence	                    KU668326.1 Hepatitis B virus isolate 21-91c precore/core protein (C) and core protein (C) genes, complete cds
+0.0001285	1	1	5	1	0.03086	1004901364	sequence	                    KM108608.1 Hepatitis B virus isolate SDH119OBIDE large S protein (S) gene, complete cds
+0.0001285	1	1	5	1	0.01629	1004922997	sequence	                    MH724247.1 Hepatitis B virus isolate BR39, complete genome
+0.0001285	1	1	5	1	0.1923	1004927604	sequence	                    Y07587.1 Hepatitis B virus, complete genome
+0.0001285	1	0	5	1	0.01355	106821	no rank	                    Hepatitis B virus subtype adw
+0.0001285	1	1	5	1	0.02793	1006582175	sequence	                      D00329.1 Hepatitis B virus subtype ADW genomic DNA, complete genome, clone: pJDW233
+0.0001285	1	1	5	1	0.02577	1004905860	sequence	                    KR014016.1 Hepatitis B virus strain 1134.4b, complete genome
+0.0001285	1	1	5	1	0.2778	1004923055	sequence	                    MH725013.1 Hepatitis B virus isolate SA-273 precore-core protein gene, complete cds
+0.0001285	1	1	5	1	0.1042	1004852911	sequence	                    AM422939.1 Hepatitis B virus, genotype D, complete genome, isolate X28
+0.0001285	1	1	5	1	0.004717	1004875007	sequence	                    GU563552.1 Hepatitis B virus isolate BV-122, complete genome
+0.0001285	1	1	5	1	0.5	1004854974	sequence	                    AY859937.1 Hepatitis B virus isolate 3576/2001_ayw3 HBsAg and polymerase genes, partial cds
+0.0001285	1	1	5	1	0.1316	1004895881	sequence	                    KF192833.1 Hepatitis B virus isolate TP68, complete genome
+0.0001285	1	1	5	1	0.5	1004879553	sequence	                    JN040812.1 Hepatitis B virus isolate 919027, complete genome
+0.0001285	1	1	5	1	0.08772	1004857861	sequence	                    DQ849612.1 Hepatitis B virus isolate Alaska577 S protein-like (S) gene, partial sequence
+0.0001285	1	1	5	1	0.07463	1004890340	sequence	                    KC875275.1 Hepatitis B virus isolate HBV39 genotype D, complete genome
+0.0001285	1	1	4	1	0.01639	1004851371	sequence	                    AF391286.1 Hepatitis B virus large surface protein (S) gene, complete cds
+0.0001285	1	1	4	1	0.07692	1004906427	sequence	                    KR811755.1 Hepatitis B virus isolate 1NT.15 X protein (X) gene, complete cds
+0.0001285	1	1	4	1	0.1143	1004855087	sequence	                    AY862868.1 Hepatitis B virus clone Q43, complete genome
+0.0001285	1	1	4	1	0.02516	1004879545	sequence	                    JN040804.1 Hepatitis B virus isolate 919028, complete genome
+0.0001285	1	1	4	1	0.02339	1004868352	sequence	                    FJ904403.1 Hepatitis B virus isolate A29, complete genome
+0.0001285	1	1	4	1	0.03704	1004918249	sequence	                    MF059688.1 Hepatitis B virus isolate Hep-C135 X protein (HBx) gene, partial cds
+0.0001285	1	1	4	1	0.2	1004923022	sequence	                    MH724974.1 Hepatitis B virus isolate SA-68 precore-core protein gene, complete cds
+0.0001285	1	1	4	1	0.04396	1004884036	sequence	                    JX036334.1 Hepatitis B virus isolate Y2-12 nonfunctional polymerase protein (P) gene, partial sequence; and surface antigen (s) gene, complete cds
+0.0001285	1	1	4	1	0.07018	1004922445	sequence	                    MH488814.1 Hepatitis B virus isolate E6 X protein gene, complete cds
+0.0001285	1	1	4	1	0.03252	1004905803	sequence	                    KR013959.1 Hepatitis B virus strain 513.4a, complete genome
+0.0001285	1	1	4	1	0.02083	1004879738	sequence	                    JN132129.1 Hepatitis B virus isolate NCVI-5294 nonfunctional precore/core protein (C) gene, complete sequence
+0.0001285	1	1	4	1	0.02878	1004879260	sequence	                    JF754632.1 Hepatitis B virus isolate TK186, complete genome
+0.0001285	1	1	4	1	0.05263	1004887408	sequence	                    JX849442.1 Hepatitis B virus isolate 48a_3b_D polymerase (P) gene, partial cds
+0.0001285	1	1	4	1	0.03226	1004879228	sequence	                    JF754600.1 Hepatitis B virus isolate TK91, complete genome
+0.0001285	1	1	4	1	0.032	1004879221	sequence	                    JF754593.1 Hepatitis B virus isolate TK170, complete genome
+0.0001285	1	1	4	1	0.01835	1004878934	sequence	                    JF439714.1 Hepatitis B virus isolate FEN161 polymerase (P) gene, complete cds
+0.0001285	1	1	4	1	0.07273	1004890462	sequence	                    KC885200.1 Hepatitis B virus isolate other02-09 precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	4	1	0.008114	1004917498	sequence	                    KY881792.1 Hepatitis B virus isolate patient-01 clone 13, complete genome
+0.0001285	1	1	4	1	0.02667	1004874904	sequence	                    GU332694.1 Hepatitis B virus isolate FMD73, complete genome
+0.0001285	1	1	4	1	1	1004873809	sequence	                    GQ924671.1 Hepatitis B virus isolate M25 large surface protein (S) gene, partial cds; and middle surface protein (S) and small surface protein (S) genes, complete cds
+0.0001285	1	1	3	1	0.01667	1004847502	sequence	                    AB074047.1 Hepatitis B virus DNA, complete genome, isolate:HBV-Th11
+0.0001285	1	1	3	1	0.01622	1004869052	sequence	                    FN594749.1 Hepatitis B virus complete genome, isolate bne8
+0.0001285	1	1	3	1	0.01299	1004880659	sequence	                    JN688710.2 Hepatitis B virus isolate HBV144, complete genome
+0.0001285	1	1	3	1	0.009346	1004880447	sequence	                    JN604245.1 Hepatitis B virus isolate 479-0501-5 polymerase (P) gene, partial cds; and large S protein-like (S), middle S protein-like (S), and S protein-like (S) genes, complete sequence
+0.0001285	1	1	3	1	0.06522	1004864518	sequence	                    EU939599.1 Hepatitis B virus isolate C172, complete genome
+0.0001285	1	1	3	1	0.07692	1004880024	sequence	                    JN257170.1 Hepatitis B virus isolate WHJWB, complete genome
+0.0001285	1	1	3	1	0.01705	1004871056	sequence	                    GQ477456.1 Hepatitis B virus isolate P84, complete genome
+0.0001285	1	1	3	1	0.0625	1004908599	sequence	                    KT723252.1 Hepatitis B virus isolate LU260PLc16_D polymerase and large S1 protein genes, partial cds
+0.0001285	1	1	3	1	0.01523	1004879559	sequence	                    JN040818.1 Hepatitis B virus isolate 919081, complete genome
+0.0001285	1	1	3	1	0.02013	1004913696	sequence	                    KX660690.1 Hepatitis B virus isolate TibetRikaze-4, complete genome
+0.0001285	1	1	3	1	0.01705	1004870840	sequence	                    GQ358158.1 Hepatitis B virus isolate M154, complete genome
+0.0001285	1	1	3	1	0.1579	1004869111	sequence	                    FR821825.1 Hepatitis B virus HBsAg gene for putative surface antigen, clone C05-0111-C
+0.0001285	1	1	3	1	0.05769	1004909726	sequence	                    KU595379.1 Hepatitis B virus isolate LK416D S protein (S) gene, partial cds
+0.0001285	1	1	3	1	0.008264	1004917543	sequence	                    KY881837.1 Hepatitis B virus isolate patient-03 clone 18, complete genome
+0.0001285	1	1	3	1	0.09677	1004879383	sequence	                    JF815655.1 Hepatitis B virus strain HBV64 polymerase (P) gene, partial cds; and large S protein (S) gene, complete cds
+0.0001285	1	1	3	1	0.02326	1004859124	sequence	                    DQ995805.1 Hepatitis B virus isolate H60-2.5KB, complete genome
+0.0001285	1	1	3	1	0.06667	1004889447	sequence	                    KC774362.1 Hepatitis B virus isolate blz1107, complete genome
+0.0001285	1	1	3	1	1	1004902207	sequence	                    KM606719.1 Hepatitis B virus isolate Cuba31 X protein (X) and polymerase (P) genes, partial cds; and precore/core protein (C) gene, partial sequence
+0.0001285	1	1	3	1	0.1154	1004884645	sequence	                    JX429914.1 Hepatitis B virus isolate WY-SD-13, complete genome
+0.0001285	1	1	3	1	0.02542	1004889916	sequence	                    KC792979.1 Hepatitis B virus isolate EP0332 polymerase (pol) gene, partial cds
+0.0001285	1	1	3	1	1	1004890597	sequence	                    KC885500.1 Hepatitis B virus isolate other01-07 precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	3	1	0.1034	1004901213	sequence	                    KJ997825.1 Hepatitis B virus clone HCC6C4TISSUE X protein gene, complete cds
+0.0001285	1	1	3	1	1	1004857459	sequence	                    DQ838905.1 Hepatitis B virus isolate 335-HCC surface antigen (sAg) gene, partial cds
+0.0001285	1	1	3	1	0.04545	1004927162	sequence	                    MN507840.1 Hepatitis B virus isolate 3816_HBVe_GC, complete genome
+0.0001285	1	1	3	1	0.04412	1004922470	sequence	                    MH488839.1 Hepatitis B virus isolate L25 X protein gene, complete cds
+0.0001285	1	1	3	1	0.02459	1004905708	sequence	                    KR013863.1 Hepatitis B virus strain 1456.11a, complete genome
+0.0001285	1	1	3	1	0.04	1004927454	sequence	                    U87852.2 Hepatitis B virus isolate 1149 large surface antigen (preS1/S2/S) gene, complete cds
+0.0001285	1	1	3	1	0.05263	1004849860	sequence	                    AB674404.1 Hepatitis B virus DNA, complete genome, isolate: AnkaraE39
+0.0001285	1	1	3	1	0.04688	1004880683	sequence	                    JN792905.1 Hepatitis B virus isolate 312000345, complete genome
+0.0001285	1	1	2	1	0.1333	1004898655	sequence	                    KJ172135.1 Hepatitis B virus isolate BCP-009-C11-5 precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	2	1	0.01087	1004917212	sequence	                    KY809996.1 Hepatitis B virus isolate RP_99 polymerase (Pol) gene, partial cds
+0.0001285	1	1	2	1	0.06452	1004927104	sequence	                    MN365238.1 Hepatitis B virus isolate HBV_V22M, complete genome
+0.0001285	1	1	2	1	0.04444	1004849864	sequence	                    AB674408.1 Hepatitis B virus DNA, complete genome, isolate: SamsunD83
+0.0001285	1	1	2	1	0.04167	1004873635	sequence	                    GQ859053.1 Hepatitis B virus isolate AB11 nonfunctional precore/core protein (C) gene, partial sequence
+0.0001285	1	1	2	1	0.01031	1004869073	sequence	                    FN594770.1 Hepatitis B virus complete genome, isolate bne367
+0.0001285	1	1	2	1	0.06452	1004873708	sequence	                    GQ859133.1 Hepatitis B virus isolate BH25 nonfunctional precore/core protein (C) gene, partial sequence
+0.0001285	1	1	2	1	0.07692	1004927094	sequence	                    MN310706.1 Hepatitis B virus isolate BG_20_2010, complete genome
+0.0001285	1	1	2	1	0.008621	1004926735	sequence	                    MK693107.1 Hepatitis B virus isolate Ahvaz8, complete genome
+0.0001285	1	1	2	1	0.01227	1004917673	sequence	                    KY881972.1 Hepatitis B virus isolate patient-09 clone 14, complete genome
+0.0001285	1	1	2	1	0.04444	1004851552	sequence	                    AF472601.1 Hepatitis B virus isolate T4 surface antigen (S) gene, partial cds
+0.0001285	1	1	2	1	0.01036	1004855150	sequence	                    AY934764.1 Hepatitis B virus isolate 9210699, complete genome
+0.0001285	1	1	2	1	0.02299	1004856282	sequence	                    DQ336688.1 Hepatitis B virus isolate LT5 clone 4 HBcAg, Pol (pol), and HBsAg (S) genes, complete cds; and X protein (X) gene, partial cds
+0.0001285	1	1	2	1	0.05714	1004917953	sequence	                    LK995389.1 Hepatitis B virus partial partial C gene for core protein, strain D1, isolate NAT2037991
+0.0001285	1	1	2	1	0.01613	1004857681	sequence	                    DQ849430.1 Hepatitis B virus isolate Alaska395 S protein-like (S) gene, partial sequence
+0.0001285	1	1	2	1	0.03636	1004865159	sequence	                    FJ349230.1 Hepatitis B virus isolate C7, complete genome
+0.0001285	1	1	2	1	0.01093	1004861060	sequence	                    EU027323.1 Hepatitis B virus isolate FR-HBVrt-pt4-7-47 polymerase (P) gene, partial cds
+0.0001285	1	1	2	1	0.1111	1004861891	sequence	                    EU043350.1 Hepatitis B virus isolate XX278-12 nonfunctional X protein gene, partial sequence
+0.0001285	1	1	2	1	0.1	1004920465	sequence	                    MG776572.1 Hepatitis B virus isolate SA-537 X protein (X) gene, complete cds
+0.0001285	1	1	2	1	0.02105	1004919662	sequence	                    MG491171.1 Hepatitis B virus isolate ShrSan49TC precore/core protein gene, partial cds
+0.0001285	1	1	2	1	0.02381	1004919467	sequence	                    MF925384.1 Hepatitis B virus isolate BD-HBV28, complete genome
+0.0001285	1	1	2	1	0.0274	1004862720	sequence	                    EU554535.1 Hepatitis B virus isolate S472-20, complete genome
+0.0001285	1	1	2	1	0.125	1004914907	sequence	                    KY360718.1 Hepatitis B virus isolate ZP033B-5 nonfunctional S protein (S) gene, complete sequence
+0.0001285	1	1	2	1	0.07692	1004883565	sequence	                    JQ707752.1 Hepatitis B virus isolate S35_31 polymerase gene, complete cds
+0.0001285	1	1	2	1	0.01429	1004897288	sequence	                    KF849716.1 Hepatitis B virus isolate LDA278, complete genome
+0.0001285	1	1	2	1	0.04545	1004906915	sequence	                    KT001351.1 Hepatitis B virus isolate 501 nonfunctional core protein (C) gene, partial sequence
+0.0001285	1	1	2	1	0.0102	1004880422	sequence	                    JN604220.1 Hepatitis B virus isolate 477-3827-6 polymerase (P) gene, partial cds; and large S protein (S), middle S protein (S), and S protein (S) genes, complete cds
+0.0001285	1	1	2	1	0.02326	1004884089	sequence	                    JX090606.1 Hepatitis B virus isolate I-AL10 large S protein (S) gene, complete cds
+0.0001285	1	1	2	1	0.04348	1004879680	sequence	                    JN107842.1 Hepatitis B virus isolate IBT-165 S gene, partial sequence
+0.0001285	1	1	2	1	0.02857	1004905521	sequence	                    KP997949.1 Hepatitis B virus isolate 525 polymerase (Pol) gene, partial cds
+0.0001285	1	1	2	1	0.01818	1004884143	sequence	                    JX090664.1 Hepatitis B virus isolate A-MS357 large S protein-like (S) gene, complete sequence
+0.0001285	1	1	2	1	0.02247	1004904733	sequence	                    KP857044.1 Hepatitis B virus strain HBV230 nonfunctional precore protein gene, complete sequence; and core protein gene, complete cds
+0.0001285	1	1	2	1	0.0198	1004884179	sequence	                    JX090700.1 Hepatitis B virus isolate Y-SH660 large S protein (S) gene, complete cds
+0.0001285	1	1	2	1	0.01639	1004879551	sequence	                    JN040810.1 Hepatitis B virus isolate 919060, complete genome
+0.0001285	1	1	2	1	0.01869	1004903326	sequence	                    KP276253.1 Hepatitis B virus isolate Tibet-1874, complete genome
+0.0001285	1	1	2	1	0.01639	1004910552	sequence	                    KU668167.1 Hepatitis B virus isolate 31-74c nonfunctional precore/core protein (C) and nonfunctional core protein (C) genes, complete sequence
+0.0001285	1	1	2	1	0.03922	1004910560	sequence	                    KU668175.1 Hepatitis B virus isolate 31-75c nonfunctional precore/core protein (C) and nonfunctional core protein (C) genes, complete sequence
+0.0001285	1	1	2	1	0.07692	1004903231	sequence	                    KP243556.1 Hepatitis B virus isolate 964915_NL_2011 core protein (C) gene, partial cds
+0.0001285	1	1	2	1	0.02532	1004888803	sequence	                    KC339947.1 Hepatitis B virus isolate IR-47 large S protein (S) gene, partial cds
+0.0001285	1	1	2	1	0.06667	1004891372	sequence	                    KF164918.1 Hepatitis B virus isolate 113 precore/core protein (C) and core protein (C) genes, partial cds
+0.0001285	1	1	2	1	0.02062	1004900659	sequence	                    KJ810846.1 Hepatitis B virus isolate CAH_33 nonfunctional precore/core protein (C) gene, partial sequence
+0.0001285	1	1	2	1	0.06897	1004896449	sequence	                    KF767077.1 Hepatitis B virus isolate SH159D_3 X protein (X) and precore/core protein (C) genes, partial cds
+0.0001285	1	1	1	1	0.02326	1004850729	sequence	                    AF223958.1 Hepatitis B virus strain C-1858 isolate ea5, complete genome
+0.0001285	1	1	1	1	0.01923	1004905830	sequence	                    KR013986.1 Hepatitis B virus strain 580.7a, complete genome
+0.0001285	1	1	1	1	0.0119	1004861009	sequence	                    EU027270.1 Hepatitis B virus isolate FR-HBVrt-pt4-1-24 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.009524	1004860526	sequence	                    EU026699.1 Hepatitis B virus isolate FR-HBVrt-pt1-27-36 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.1	1004860497	sequence	                    EU026666.1 Hepatitis B virus isolate FR-HBVrt-pt1-25-24 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.01695	1004900232	sequence	                    KJ585436.1 Hepatitis B virus isolate OMAN-004 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.01042	1004884019	sequence	                    JX026880.1 Hepatitis B virus isolate WY-NJ-23, complete genome
+0.0001285	1	1	1	1	0.01493	1004860486	sequence	                    EU026655.1 Hepatitis B virus isolate FR-HBVrt-pt1-25-5 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.01639	1004922988	sequence	                    MH724238.1 Hepatitis B virus isolate BR29, complete genome
+0.0001285	1	1	1	1	0.025	1004853126	sequence	                    AY028593.1 Hepatitis B virus X30-7 X protein gene, complete cds
+0.0001285	1	1	1	1	0.1667	1004860417	sequence	                    EU026582.1 Hepatitis B virus isolate FR-HBVrt-pt1-8-9 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.008621	1004862589	sequence	                    EU414086.1 Hepatitis B virus strain 28021 large S protein gene, partial cds
+0.0001285	1	1	1	1	0.004673	1004850541	sequence	                    AF143303.1 Hepatitis B virus clone HD1406, complete genome
+0.0001285	1	1	1	1	0.02439	1004888120	sequence	                    KC174625.1 Hepatitis B virus isolate CIV-89 polymerase and S protein genes, partial cds
+0.0001285	1	1	1	1	0.01961	1004859120	sequence	                    DQ995801.1 Hepatitis B virus isolate H60-6, complete genome
+0.0001285	1	1	1	1	0.01099	1004926688	sequence	                    MK618430.1 Hepatitis B virus isolate HBV_occult_Arkh18, complete genome
+0.0001285	1	1	1	1	0.01562	1004884136	sequence	                    JX090657.1 Hepatitis B virus isolate A-MS134 large S protein (S) gene, complete cds
+0.0001285	1	1	1	1	0.1429	1004851223	sequence	                    AF350177.1 Hepatitis B virus isolate Gam1461 precore/core protein gene, complete cds
+0.0001285	1	1	1	1	0.04348	1004926605	sequence	                    MK598652.1 Hepatitis B virus isolate HBV_occult_VNovg25, complete genome
+0.0001285	1	1	1	1	0.002475	1004904187	sequence	                    KP659236.1 Hepatitis B virus isolate Canada-2B-301, partial genome
+0.0001285	1	1	1	1	0.02128	1004884642	sequence	                    JX429911.1 Hepatitis B virus isolate WY-NJ-45, complete genome
+0.0001285	1	1	1	1	0.01333	1004855137	sequence	                    AY903452.1 Hepatitis B virus serotype adw2, complete genome
+0.0001285	1	1	1	1	0.08333	1004851505	sequence	                    AF463955.1 Hepatitis B virus clone cirrhosis-16 surface antigen gene, partial cds
+0.0001285	1	1	1	1	0.04348	1004884231	sequence	                    JX093048.1 Hepatitis B virus isolate 64-R1 reverse transcriptase-like (P) gene, partial sequence
+0.0001285	1	1	1	1	0.00216	1004923534	sequence	                    MH925845.1 Hepatitis B virus isolate LK_8 large S protein (S) gene, partial cds
+0.0001285	1	1	1	1	0.004329	1004853995	sequence	                    AY341335.1 Hepatitis B virus isolation-source agammaglobulinaemic patient pre-core stop-codon variant, complete genome
+0.0001285	1	1	1	1	0.009804	1004869484	sequence	                    GQ184323.1 Hepatitis B virus isolate ZADGM1121, complete genome
+0.0001285	1	1	1	1	0.01887	1004917963	sequence	                    LT623609.1 Hepatitis B virus partial P pseudogene for polyprotein, pol region, strain 74034
+0.0001285	1	1	1	1	0.002079	1004917939	sequence	                    LK995375.1 Hepatitis B virus partial C gene and partial P gene for core protein and polymerase, isolate H627/NIB SubgenotypeD1
+0.0001285	1	1	1	1	0.02703	1004910197	sequence	                    KU667809.1 Hepatitis B virus isolate 68-37c nonfunctional precore/core protein (C) gene, complete sequence; and core protein (C) gene, complete cds
+0.0001285	1	1	1	1	0.01316	1004868768	sequence	                    FM211401.1 Hepatitis B virus S gene for large surface protein, isolate QW026
+0.0001285	1	1	1	1	0.0102	1004849664	sequence	                    AB493834.1 Hepatitis B virus DNA, complete genome, isolate: P18
+0.0001285	1	1	1	1	0.009524	1004910743	sequence	                    KU668359.1 Hepatitis B virus isolate 59-94c nonfunctional precore/core protein (C) and nonfunctional core protein (C) genes, complete sequence
+0.0001285	1	1	1	1	0.5	1004911947	sequence	                    KU964370.1 Hepatitis B virus isolate 40_5 core protein-like (C) gene, complete sequence
+0.0001285	1	1	1	1	0.03226	1004927589	sequence	                    X85316.1 Hepatitis B virus X, PreC and C genes (Giordo)
+0.0001285	1	1	1	1	0.04348	1004920387	sequence	                    MG776463.1 Hepatitis B virus isolate SA-200 X protein (X) gene, complete cds
+0.0001285	1	1	1	1	0.01429	1004848674	sequence	                    AB270539.1 Hepatitis B virus DNA, complete genome, isolate: MGL200F
+0.0001285	1	1	1	1	0.00813	1004877606	sequence	                    HQ257262.1 Hepatitis B virus isolate MS11-PC precore/core protein-like gene, partial sequence
+0.0001285	1	1	1	1	0.01754	1004913875	sequence	                    KX777377.1 Hepatitis B virus strain SPHC42340 reverse transcriptase gene, partial cds
+0.0001285	1	1	1	1	0.004587	1004847615	sequence	                    AB104714.1 Hepatitis B virus s gene for pre-S and S protein, complete cds, isolate: EG70
+0.0001285	1	1	1	1	0.01818	1004875560	sequence	                    GU815727.1 Hepatitis B virus isolate F2-2, complete genome
+0.0001285	1	1	1	1	0.01031	1004916203	sequence	                    KY470970.1 Hepatitis B virus isolate WR-107, complete genome
+0.0001285	1	1	1	1	0.01064	1004916113	sequence	                    KY470866.1 Hepatitis B virus isolate 2-31, complete genome
+0.0001285	1	1	1	1	0.008197	1004874987	sequence	                    GU456672.1 Hepatitis B virus isolate I_T73, complete genome
+0.0001285	1	1	1	1	0.03226	1004867758	sequence	                    FJ787465.1 Hepatitis B virus isolate S1371-5, complete genome
+0.0001285	1	1	1	1	0.007937	1004882877	sequence	                    JQ514366.1 Hepatitis B virus isolate 10/H1196 polymerase-like (P) gene, partial sequence; large S protein (S) and middle S protein (S) genes, partial cds; and S protein (S) gene, complete cds
+0.0001285	1	1	1	1	0.01389	1004862637	sequence	                    EU414136.1 Hepatitis B virus strain 28052, complete genome
+0.0001285	1	1	1	1	0.01613	1004919773	sequence	                    MG652681.1 Hepatitis B virus isolate HBV60 polymerase (P) gene, partial cds
+0.0001285	1	1	1	1	0.006667	1004919703	sequence	                    MG571336.1 Hepatitis B virus isolate 20730, complete genome
+0.0001285	1	1	1	1	0.03226	1004881436	sequence	                    JQ244825.1 Hepatitis B virus isolate 51HAT polymerase (P) and large S protein (S) genes, partial cds; and middle S protein (S) and S protein (S) genes, complete cds
+0.0001285	1	1	1	1	0.002907	1004919567	sequence	                    MG098582.1 Hepatitis B virus isolate NOA_142, complete genome
+0.0001285	1	1	1	1	0.06667	1004863805	sequence	                    EU787441.1 Hepatitis B virus isolate W32, complete genome
+0.0001285	1	1	1	1	0.005952	1004919463	sequence	                    MF925380.1 Hepatitis B virus isolate BD-HBV24, complete genome
+0.0001285	1	1	1	1	0.006098	1004864596	sequence	                    EU939677.1 Hepatitis B virus isolate D95, complete genome
+0.0001285	1	1	1	1	0.04	1004865167	sequence	                    FJ349238.1 Hepatitis B virus isolate C65, complete genome
+0.0001285	1	1	1	1	0.01786	1004909789	sequence	                    KU605536.1 Hepatitis B virus isolate ZADGM4643Baseline, complete genome
+0.0001285	1	1	1	1	0.01587	1004918147	sequence	                    LT992442.1 Hepatitis B virus isolate DA45 genome assembly, complete genome: monopartite
+0.0001285	1	1	1	1	0.02083	1004867335	sequence	                    FJ715404.1 Hepatitis B virus isolate HBVN31 core protein and large S protein genes, complete cds
+0.0001285	1	1	1	1	0.006098	1004868277	sequence	                    FJ899796.1 Hepatitis B virus isolate C76-1, complete genome
+0.6179	4809	0	59479	1.2	0.001367	2732004	no rank	    Varidnaviria
+0.6179	4809	0	59479	1.2	0.001372	2732005	kingdom	      Bamfordvirae
+0.6179	4809	0	59479	1.2	0.001608	2732007	phylum	        Nucleocytoviricota
+0.6179	4809	0	59479	1.2	0.004834	2732525	class	          Pokkesviricetes
+0.6179	4809	0	59479	1.2	0.005427	2732527	order	            Chitovirales
+0.6179	4809	1	59479	1.2	0.005427	10240	family	              Poxviridae
+0.6177	4808	18	59449	1.2	0.006222	10241	subfamily	                Chordopoxvirinae
+0.6154	4790	2841	59240	1.2	0.02296	10242	genus	                  Orthopoxvirus
+0.2361	1838	1746	16462	1.22	0.152	10255	species	                    Variola virus
+0.01015	79	79	675	1.16	0.3465	1004827261	sequence	                      X69198.1 Variola virus DNA complete genome
+0.000257	2	2	15	1	0.04348	1004827174	sequence	                      DQ441426.1 Variola virus strain Guinea 1969 (005), complete genome
+0.0001285	1	1	15	1	0.01191	1004827180	sequence	                      DQ441432.1 Variola virus strain Korea 1947 (Lee, Masterseed), complete genome
+0.0001285	1	1	11	1	0.131	1004827115	sequence	                      AF377892.1 Variola virus hemagglutinin (HA) gene, partial cds
+0.0001285	1	1	10	1	0.1111	1004827231	sequence	                      KY358055.1 Variola virus strain VD21, 17th century, complete genome
+0.0001285	1	1	9	1	0.04245	1004827237	sequence	                      U18340.1 Variola virus Somalia-1977 left variable region
+0.0001285	1	1	6	1	0.01107	1004827160	sequence	                      DQ437588.1 Variola virus strain Nepal 1973, complete genome
+0.0001285	1	1	3	1	0.001851	1004827233	sequence	                      LT706529.1 Variola virus isolate VARV_V1588 genome assembly, chromosome: I
+0.0001285	1	1	2	1	0.001903	1004827192	sequence	                      DQ441444.1 Variola virus strain United Kingdom 1946 Harvey, complete genome
+0.0001285	1	1	2	1	0.03226	1004827221	sequence	                      EF611221.1 Variola virus strain 13/62 right variable genomic sequence
+0.0001285	1	1	2	1	0.01613	1004827227	sequence	                      EF611229.1 Variola virus strain India_71 right variable genomic sequence
+0.0001285	1	1	1	1	0.0005565	1004827154	sequence	                      DQ437582.1 Variola virus strain China Horn 1948, complete genome
+0.0001285	1	1	1	1	0.01	1004827157	sequence	                      DQ437585.1 Variola virus strain India 1964 7124 Vellore, complete genome
+0.005139	40	22	173	1.09	0.00038	10243	species	                    Cowpox virus
+0.000257	2	2	6	3	0.1053	1004826370	sequence	                      KC813508.1 Cowpox virus strain HumAac09/1, complete genome
+0.000257	2	2	13	1	0.002284	1004826324	sequence	                      HQ420896.1 Cowpox virus strain Germany_1990_2, complete genome
+0.000257	2	2	13	1	0.01186	1004826421	sequence	                      LT896730.1 Cowpox virus isolate Ger/2010/Racoon genome assembly, complete genome: monopartite
+0.000257	2	2	10	1	0.0002968	1004826412	sequence	                      LT896721.1 Cowpox virus isolate Ger 2010 MKY genome assembly, complete genome: monopartite
+0.000257	2	2	4	2	0.02367	1004826404	sequence	                      KY569022.1 Cowpox virus strain CPXV CheTopCut_DK_2011, complete genome
+0.0001285	1	1	9	1	0.00495	1004826372	sequence	                      KC813510.1 Cowpox virus strain HumGra07/1, complete genome
+0.0001285	1	1	4	1	0.1143	1004826354	sequence	                      KC813492.1 Cowpox virus strain HumLan08/1, complete genome
+0.0001285	1	1	2	1	0.0002876	1004826355	sequence	                      KC813493.1 Cowpox virus strain HumLit08/1, complete genome
+0.0001285	1	1	2	1	0.002475	1004826419	sequence	                      LT896728.1 Cowpox virus isolate Ger/2010/Rat genome assembly, complete genome: monopartite
+0.0001285	1	1	1	1	0.0002818	1004826327	sequence	                      HQ420899.1 Cowpox virus strain Norway_1994_MAN, complete genome
+0.0001285	1	1	1	1	0.001016	1004826401	sequence	                      KY569019.1 Cowpox virus strain CPXV CheNova_DK_2014, complete genome
+0.0001285	1	1	1	1	0.002481	1004826403	sequence	                      KY569021.1 Cowpox virus strain CPXV CheGrey_DK_2010, complete genome
+0.0001285	1	1	1	1	0.0007102	1004826407	sequence	                      LN879483.1 Cowpox virus strain CPXV Amadeus 2015, complete genome
+0.003983	31	14	103	1.14	0.0002727	10245	species	                    Vaccinia virus
+0.0008994	7	7	19	1.16	0.0001906	1004827026	sequence	                      MG012795.1 Vaccinia virus isolate CEyV1, complete genome
+0.0005139	4	4	17	1	0.0001337	1004827027	sequence	                      MG012796.1 Vaccinia virus isolate CEyV2, complete genome
+0.0003854	3	3	7	1.86	0.0005446	397342	no rank	                      Horsepox virus
+0.000257	2	0	4	1	0.0003725	32605	no rank	                      Buffalopox virus
+0.000257	2	2	4	1	0.0005978	1006451680	sequence	                        MG599038.1 Buffalopox virus isolate Karachi 2005, complete genome
+0.0001285	1	1	4	1	0.04082	1004827042	sequence	                      S62800.1 7.5 kda protein {promoter} [vaccinia virus, Tiantan, Genomic, 148 nt]
+0.001156	9	7	41	1	0.0004282	10244	species	                    Monkeypox virus
+0.0001285	1	1	9	1	0.00687	1004826564	sequence	                      HM172544.1 Monkeypox virus strain Zaire 1979-005, complete genome
+0.0001285	1	1	6	1	0.005923	1004826554	sequence	                      AY741551.1 Monkeypox virus isolate Sierra Leone, complete genome
+0.001028	8	8	34	1.32	0.0002702	2200830	species	                    Akhmeta virus
+0.001028	8	8	23	1.78	0.0005539	28873	species	                    Camelpox virus
+0.0006424	5	0	30	1	0.001512	28871	species	                    Taterapox virus
+0.0006424	5	5	30	1	0.00161	1006377019	sequence	                      DQ437594.1 Taterapox virus strain Dahomey 1968, complete genome
+0.0003854	3	1	13	1	7.385e-05	28874	species	                    Volepox virus
+0.000257	2	2	6	1	3.858e-05	1006377146	sequence	                      KU749311.1 Volepox virus strain CA, complete genome
+0.0003854	3	3	7	1	0.0001521	12643	species	                    Ectromelia virus
+0.000257	2	0	8	1	2.613e-05	347814	no rank	                    unclassified Orthopoxvirus
+0.000257	2	0	5	1	3.712e-05	2602439	species	                      Alaskapox virus
+0.000257	2	2	5	1	3.712e-05	1007281559	sequence	                        MN240300.1 Alaskapox virus, complete genome
+0.0001285	1	0	17	1	9.826e-05	160796	species	                    Skunkpox virus
+0.0001285	1	1	17	1	0.0001112	1006615990	sequence	                      KU749310.1 Skunkpox virus strain WA, complete genome
+0.0001285	1	1	2	1	1.191e-05	10256	species	                    Raccoonpox virus
